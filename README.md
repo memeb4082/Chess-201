@@ -1,36 +1,4 @@
 # Chess 2.0
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th>A</th>
-      <th>B</th>
-      <th>C</th>
-      <th>D</th>
-      <th>E</th>
-      <th>F</th>
-      <th>G</th>
-      <th>H</th>
-      <th>I</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>1</th>
-      <td style="background-color: #CCCCCC;"></td>
-      <td style="background-color: #222222;"></td>
-      <td style="background-color: #CCCCCC;"></td>
-      <td style="background-color: #222222;"></td>
-      <td style="background-color: #CCCCCC;"></td>
-      <td style="background-color: #222222;"></td>
-      <td style="background-color: #CCCCCC;"></td>
-      <td style="background-color: #222222;"></td>
-      <td style="background-color: #CCCCCC;"></td>
-    </tr>
-    <!-- Add more rows here with alternating colors -->
-  </tbody>
-</table>
-## Pieces
 
 ### Zombie
 
@@ -84,3 +52,17 @@
 
 - Moves like a Queen
 - Cannot capture any piece it is immediately adjacent to
+
+### General
+
+- Moves like a King
+- Cannot be captured 
+- Moving to a square that can be captured is an illegal move
+- If opponent move puts King in attacking range, General is in <b>danger</b>
+    - Must get General out of danger in next move
+        - Move
+        - Capture
+        - Obstruct
+    - If not done, that is an illegal move
+- Targeting a General is the key to winning games
+- By targetting General, enemy moves are limited and can lead to a situation with no possible moves and lose as a result
