@@ -1,0 +1,2 @@
+/usr/bin/ar qc libYourLibraryName.a CMakeFiles/YourLibraryName.dir/builder.cpp.o CMakeFiles/YourLibraryName.dir/game.cpp.o CMakeFiles/YourLibraryName.dir/jester.cpp.o CMakeFiles/YourLibraryName.dir/main.cpp.o CMakeFiles/YourLibraryName.dir/miner.cpp.o CMakeFiles/YourLibraryName.dir/sentinel.cpp.o CMakeFiles/YourLibraryName.dir/zombie.cpp.o
+/usr/bin/ranlib libYourLibraryName.a

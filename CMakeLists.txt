@@ -1,62 +1,21 @@
-cmake_minimum_required(VERSION 3.14)
+cmake_minimum_required(VERSION 3.0)
+project(YourProjectName)
 
-include(cmake/prelude.cmake)
+# Set the C++ standard to use
+set(CMAKE_CXX_STANDARD 11)
 
-project(
-    Chess
-    VERSION 0.1
-    DESCRIPTION "balls"
-    HOMEPAGE_URL "https://example.com/"
-    LANGUAGES CXX
-)
+# Add the 'include' directory
+include_directories(include)
 
-include(cmake/project-is-top-level.cmake)
-include(cmake/variables.cmake)
+# Add the 'src' directory
+add_subdirectory(src)
 
-# ---- Declare library ----
+# Add any other dependencies or configuration for your project
+# ...
 
-add_library(
-    Chess_lib OBJECT
-    source/lib.cpp
-)
+# Collect all the source files
+file(GLOB SOURCES "src/*.cpp")
 
-target_include_directories(
-    Chess_lib ${warning_guard}
-    PUBLIC
-    "$<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/source>"
-)
-
-target_compile_features(Chess_lib PUBLIC cxx_std_17)
-
-find_package(fmt REQUIRED)
-target_link_libraries(Chess_lib PRIVATE fmt::fmt)
-
-# ---- Declare executable ----
-
-add_executable(Chess_exe source/main.cpp)
-add_executable(Chess::exe ALIAS Chess_exe)
-
-set_property(TARGET Chess_exe PROPERTY OUTPUT_NAME Chess)
-
-target_compile_features(Chess_exe PRIVATE cxx_std_17)
-
-target_link_libraries(Chess_exe PRIVATE Chess_lib)
-
-# ---- Install rules ----
-
-if(NOT CMAKE_SKIP_INSTALL_RULES)
-  include(cmake/install-rules.cmake)
-endif()
-
-# ---- Developer mode ----
-
-if(NOT Chess_DEVELOPER_MODE)
-  return()
-elseif(NOT PROJECT_IS_TOP_LEVEL)
-  message(
-      AUTHOR_WARNING
-      "Developer mode is intended for developers of Chess"
-  )
-endif()
-
-include(cmake/dev-mode.cmake)
+# Create your executable and link any necessary libraries
+add_executable(YourExecutableName ${SOURCES})
+target_link_libraries(YourExecutableName YourLibraryName)
