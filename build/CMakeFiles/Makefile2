@@ -98,12 +98,20 @@ src/clean: src/CMakeFiles/YourLibraryName.dir/clean
 CMakeFiles/YourExecutableName.dir/all: src/CMakeFiles/YourLibraryName.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target YourExecutableName"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target YourExecutableName"
+>>>>>>> bc18b25 (added tests, fixed cmake, some boilerplate, minor fixes)
 .PHONY : CMakeFiles/YourExecutableName.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/YourExecutableName.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles 18
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles 16
+>>>>>>> bc18b25 (added tests, fixed cmake, some boilerplate, minor fixes)
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/YourExecutableName.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles 0
 .PHONY : CMakeFiles/YourExecutableName.dir/rule
@@ -124,12 +132,20 @@ CMakeFiles/YourExecutableName.dir/clean:
 src/CMakeFiles/YourLibraryName.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/build
+<<<<<<< HEAD
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles --progress-num=10,11,12,13,14,15,16,17,18 "Built target YourLibraryName"
+=======
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles --progress-num=9,10,11,12,13,14,15,16 "Built target YourLibraryName"
+>>>>>>> bc18b25 (added tests, fixed cmake, some boilerplate, minor fixes)
 .PHONY : src/CMakeFiles/YourLibraryName.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/YourLibraryName.dir/rule: cmake_check_build_system
+<<<<<<< HEAD
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles 9
+=======
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles 8
+>>>>>>> bc18b25 (added tests, fixed cmake, some boilerplate, minor fixes)
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/YourLibraryName.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/YourLibraryName.dir/rule

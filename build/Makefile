@@ -262,6 +262,7 @@ src/miner.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/miner.cpp.s
 .PHONY : src/miner.cpp.s
 
+<<<<<<< HEAD
 src/piece.o: src/piece.cpp.o
 .PHONY : src/piece.o
 
@@ -286,6 +287,8 @@ src/piece.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/piece.cpp.s
 .PHONY : src/piece.cpp.s
 
+=======
+>>>>>>> bc18b25 (added tests, fixed cmake, some boilerplate, minor fixes)
 src/sentinel.o: src/sentinel.cpp.o
 .PHONY : src/sentinel.o
 
@@ -359,9 +362,12 @@ help:
 	@echo "... src/miner.o"
 	@echo "... src/miner.i"
 	@echo "... src/miner.s"
+<<<<<<< HEAD
 	@echo "... src/piece.o"
 	@echo "... src/piece.i"
 	@echo "... src/piece.s"
+=======
+>>>>>>> bc18b25 (added tests, fixed cmake, some boilerplate, minor fixes)
 	@echo "... src/sentinel.o"
 	@echo "... src/sentinel.i"
 	@echo "... src/sentinel.s"

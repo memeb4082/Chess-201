@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 #include "builder.hpp"
+=======
+#include "../include/builder.hpp"
+>>>>>>> bc18b25 (added tests, fixed cmake, some boilerplate, minor fixes)
 
 namespace Board
 {
     // Constructor
+<<<<<<< HEAD
     Builder::Builder() : Piece() {}
     std::vector<std::pair<int, int>> Builder::getAllMoves(int *pos, int *dim)
     {
@@ -53,5 +58,21 @@ namespace Board
         // std::vector<std::pair<int, int>> arr;
         // Attacks same as moves
         return this->getAllMoves(pos, dim);
+=======
+    Builder::Builder()
+    {
+        this->y = 1;
+    }
+
+    // Destructor
+    Builder::~Builder()
+    {
+        std::cout << "Builder destructor called" << std::endl;
+    }
+
+    void Builder::fun()
+    {
+        std::cout << "Builder fun called" << std::endl;
+>>>>>>> bc18b25 (added tests, fixed cmake, some boilerplate, minor fixes)
     }
 }

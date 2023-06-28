@@ -250,6 +250,7 @@ miner.cpp.s:
 	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/miner.cpp.s
 .PHONY : miner.cpp.s
 
+<<<<<<< HEAD
 piece.o: piece.cpp.o
 .PHONY : piece.o
 
@@ -274,6 +275,8 @@ piece.cpp.s:
 	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/piece.cpp.s
 .PHONY : piece.cpp.s
 
+=======
+>>>>>>> bc18b25 (added tests, fixed cmake, some boilerplate, minor fixes)
 sentinel.o: sentinel.cpp.o
 .PHONY : sentinel.o
 
@@ -346,9 +349,12 @@ help:
 	@echo "... miner.o"
 	@echo "... miner.i"
 	@echo "... miner.s"
+<<<<<<< HEAD
 	@echo "... piece.o"
 	@echo "... piece.i"
 	@echo "... piece.s"
+=======
+>>>>>>> bc18b25 (added tests, fixed cmake, some boilerplate, minor fixes)
 	@echo "... sentinel.o"
 	@echo "... sentinel.i"
 	@echo "... sentinel.s"
