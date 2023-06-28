@@ -14,41 +14,34 @@ namespace Board
     {
         this->size_x = size_x;
         this->size_y = size_y;
-        // this->game = new Piece *[size_x];
-        // for (int i = 0; i < size_x; i++)
-        // {
-        //     this->game[i] = new Builder[size_y];
-        // }
+        this->game = new Piece *[size_x];
     }
 
     // Destructor
     Game::~Game()
     {
-        // for (int i = 0; i < size_x; i++)
-        // {
-        //     delete[] this->game[i];
-        // }
-        // delete[] this->game;
-        std::cout << "CALLED DESTRUCTOR" << std::endl;
+        for (int i = 0; i < size_x; i++)
+        {
+            delete[] this->game[i];
+        }
+        delete[] this->game;
+        std::cout << "Board Deleted" << std::endl;
     }
 
-    // Set state based on a file
     void Game::setState(std::string filename)
     {
         std::ifstream inputFile(filename);
-        if (inputFile.is_open())
+        if (!inputFile)
         {
-            std::string line;
-            while (std::getline(inputFile, line))
-            {
-                std::cout << line << std::endl;
-            }
-            inputFile.close();
+            std::cerr << "Failed to find file" << std::endl;
+            return;
         }
-        else
+        char c;
+        while (inputFile.get(c))
         {
-            std::cout << "Failed to open file." << std::endl;
+            std::cout << c << std::endl;
         }
+        inputFile.close();
     }
 
     // Print the game board

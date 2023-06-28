@@ -262,6 +262,30 @@ src/miner.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/miner.cpp.s
 .PHONY : src/miner.cpp.s
 
+src/piece.o: src/piece.cpp.o
+.PHONY : src/piece.o
+
+# target to build an object file
+src/piece.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/piece.cpp.o
+.PHONY : src/piece.cpp.o
+
+src/piece.i: src/piece.cpp.i
+.PHONY : src/piece.i
+
+# target to preprocess a source file
+src/piece.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/piece.cpp.i
+.PHONY : src/piece.cpp.i
+
+src/piece.s: src/piece.cpp.s
+.PHONY : src/piece.s
+
+# target to generate assembly for a file
+src/piece.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/piece.cpp.s
+.PHONY : src/piece.cpp.s
+
 src/sentinel.o: src/sentinel.cpp.o
 .PHONY : src/sentinel.o
 
@@ -335,6 +359,9 @@ help:
 	@echo "... src/miner.o"
 	@echo "... src/miner.i"
 	@echo "... src/miner.s"
+	@echo "... src/piece.o"
+	@echo "... src/piece.i"
+	@echo "... src/piece.s"
 	@echo "... src/sentinel.o"
 	@echo "... src/sentinel.i"
 	@echo "... src/sentinel.s"

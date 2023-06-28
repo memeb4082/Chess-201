@@ -250,6 +250,30 @@ miner.cpp.s:
 	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/miner.cpp.s
 .PHONY : miner.cpp.s
 
+piece.o: piece.cpp.o
+.PHONY : piece.o
+
+# target to build an object file
+piece.cpp.o:
+	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/piece.cpp.o
+.PHONY : piece.cpp.o
+
+piece.i: piece.cpp.i
+.PHONY : piece.i
+
+# target to preprocess a source file
+piece.cpp.i:
+	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/piece.cpp.i
+.PHONY : piece.cpp.i
+
+piece.s: piece.cpp.s
+.PHONY : piece.s
+
+# target to generate assembly for a file
+piece.cpp.s:
+	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/piece.cpp.s
+.PHONY : piece.cpp.s
+
 sentinel.o: sentinel.cpp.o
 .PHONY : sentinel.o
 
@@ -322,6 +346,9 @@ help:
 	@echo "... miner.o"
 	@echo "... miner.i"
 	@echo "... miner.s"
+	@echo "... piece.o"
+	@echo "... piece.i"
+	@echo "... piece.s"
 	@echo "... sentinel.o"
 	@echo "... sentinel.i"
 	@echo "... sentinel.s"

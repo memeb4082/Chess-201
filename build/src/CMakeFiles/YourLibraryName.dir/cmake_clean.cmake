@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/YourLibraryName.dir/main.cpp.o.d"
   "CMakeFiles/YourLibraryName.dir/miner.cpp.o"
   "CMakeFiles/YourLibraryName.dir/miner.cpp.o.d"
+  "CMakeFiles/YourLibraryName.dir/piece.cpp.o"
+  "CMakeFiles/YourLibraryName.dir/piece.cpp.o.d"
   "CMakeFiles/YourLibraryName.dir/sentinel.cpp.o"
   "CMakeFiles/YourLibraryName.dir/sentinel.cpp.o.d"
   "CMakeFiles/YourLibraryName.dir/zombie.cpp.o"

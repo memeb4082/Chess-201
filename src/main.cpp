@@ -6,5 +6,6 @@
 int main()
 {
     Board::Game game = Board::Game(8, 8);
+    game.setState("../testing/4/black/answers/tests");
     return 0;
 }

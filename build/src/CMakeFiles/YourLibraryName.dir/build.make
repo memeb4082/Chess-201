@@ -139,10 +139,24 @@ src/CMakeFiles/YourLibraryName.dir/miner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YourLibraryName.dir/miner.cpp.s"
 	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/miner.cpp -o CMakeFiles/YourLibraryName.dir/miner.cpp.s
 
+src/CMakeFiles/YourLibraryName.dir/piece.cpp.o: src/CMakeFiles/YourLibraryName.dir/flags.make
+src/CMakeFiles/YourLibraryName.dir/piece.cpp.o: /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/piece.cpp
+src/CMakeFiles/YourLibraryName.dir/piece.cpp.o: src/CMakeFiles/YourLibraryName.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/YourLibraryName.dir/piece.cpp.o"
+	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/YourLibraryName.dir/piece.cpp.o -MF CMakeFiles/YourLibraryName.dir/piece.cpp.o.d -o CMakeFiles/YourLibraryName.dir/piece.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/piece.cpp
+
+src/CMakeFiles/YourLibraryName.dir/piece.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YourLibraryName.dir/piece.cpp.i"
+	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/piece.cpp > CMakeFiles/YourLibraryName.dir/piece.cpp.i
+
+src/CMakeFiles/YourLibraryName.dir/piece.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YourLibraryName.dir/piece.cpp.s"
+	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/piece.cpp -o CMakeFiles/YourLibraryName.dir/piece.cpp.s
+
 src/CMakeFiles/YourLibraryName.dir/sentinel.cpp.o: src/CMakeFiles/YourLibraryName.dir/flags.make
 src/CMakeFiles/YourLibraryName.dir/sentinel.cpp.o: /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/sentinel.cpp
 src/CMakeFiles/YourLibraryName.dir/sentinel.cpp.o: src/CMakeFiles/YourLibraryName.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/YourLibraryName.dir/sentinel.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/YourLibraryName.dir/sentinel.cpp.o"
 	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/YourLibraryName.dir/sentinel.cpp.o -MF CMakeFiles/YourLibraryName.dir/sentinel.cpp.o.d -o CMakeFiles/YourLibraryName.dir/sentinel.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/sentinel.cpp
 
 src/CMakeFiles/YourLibraryName.dir/sentinel.cpp.i: cmake_force
@@ -156,7 +170,7 @@ src/CMakeFiles/YourLibraryName.dir/sentinel.cpp.s: cmake_force
 src/CMakeFiles/YourLibraryName.dir/zombie.cpp.o: src/CMakeFiles/YourLibraryName.dir/flags.make
 src/CMakeFiles/YourLibraryName.dir/zombie.cpp.o: /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/zombie.cpp
 src/CMakeFiles/YourLibraryName.dir/zombie.cpp.o: src/CMakeFiles/YourLibraryName.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/YourLibraryName.dir/zombie.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/YourLibraryName.dir/zombie.cpp.o"
 	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/YourLibraryName.dir/zombie.cpp.o -MF CMakeFiles/YourLibraryName.dir/zombie.cpp.o.d -o CMakeFiles/YourLibraryName.dir/zombie.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/zombie.cpp
 
 src/CMakeFiles/YourLibraryName.dir/zombie.cpp.i: cmake_force
@@ -174,6 +188,7 @@ YourLibraryName_OBJECTS = \
 "CMakeFiles/YourLibraryName.dir/jester.cpp.o" \
 "CMakeFiles/YourLibraryName.dir/main.cpp.o" \
 "CMakeFiles/YourLibraryName.dir/miner.cpp.o" \
+"CMakeFiles/YourLibraryName.dir/piece.cpp.o" \
 "CMakeFiles/YourLibraryName.dir/sentinel.cpp.o" \
 "CMakeFiles/YourLibraryName.dir/zombie.cpp.o"
 
@@ -185,11 +200,12 @@ src/libYourLibraryName.a: src/CMakeFiles/YourLibraryName.dir/game.cpp.o
 src/libYourLibraryName.a: src/CMakeFiles/YourLibraryName.dir/jester.cpp.o
 src/libYourLibraryName.a: src/CMakeFiles/YourLibraryName.dir/main.cpp.o
 src/libYourLibraryName.a: src/CMakeFiles/YourLibraryName.dir/miner.cpp.o
+src/libYourLibraryName.a: src/CMakeFiles/YourLibraryName.dir/piece.cpp.o
 src/libYourLibraryName.a: src/CMakeFiles/YourLibraryName.dir/sentinel.cpp.o
 src/libYourLibraryName.a: src/CMakeFiles/YourLibraryName.dir/zombie.cpp.o
 src/libYourLibraryName.a: src/CMakeFiles/YourLibraryName.dir/build.make
 src/libYourLibraryName.a: src/CMakeFiles/YourLibraryName.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libYourLibraryName.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libYourLibraryName.a"
 	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/src && $(CMAKE_COMMAND) -P CMakeFiles/YourLibraryName.dir/cmake_clean_target.cmake
 	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/YourLibraryName.dir/link.txt --verbose=$(VERBOSE)
 

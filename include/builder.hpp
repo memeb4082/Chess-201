@@ -1,5 +1,5 @@
-#ifndef BUILDER_H
-#define BUILDER_H 1
+#ifndef BUILDER_HPP
+#define BUILDER_HPP 1
 
 #include <iostream>
 #include <stdint.h>
@@ -7,14 +7,17 @@
 
 namespace Board
 {
-    class Builder: public Piece
+    class Builder : public Piece
     {
-        public:
-            Builder();
-            ~Builder();
-            int y;
-            void fun();
+    private:
+        bool* isWhite;
 
+    public:
+        Builder();
+        bool getIsWhite();
+        void setIsWhite(bool isWhite);
+        std::vector<std::pair<int, int>> getAllMoves(int *pos, int *dim) override;
+        std::vector<std::pair<int, int>> getAllAttacks(int *pos, int *dim) override;
     };
 }
 

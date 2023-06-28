@@ -31,6 +31,12 @@
 },
 {
   "directory": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build",
+  "command": "/usr/bin/clang++  -I/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/YourExecutableName.dir/src/piece.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/piece.cpp",
+  "file": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/piece.cpp",
+  "output": "CMakeFiles/YourExecutableName.dir/src/piece.cpp.o"
+},
+{
+  "directory": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build",
   "command": "/usr/bin/clang++  -I/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/sentinel.cpp",
   "file": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/sentinel.cpp",
   "output": "CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.o"
@@ -70,6 +76,12 @@
   "command": "/usr/bin/clang++  -I/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/YourLibraryName.dir/miner.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/miner.cpp",
   "file": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/miner.cpp",
   "output": "src/CMakeFiles/YourLibraryName.dir/miner.cpp.o"
+},
+{
+  "directory": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/src",
+  "command": "/usr/bin/clang++  -I/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/YourLibraryName.dir/piece.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/piece.cpp",
+  "file": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/piece.cpp",
+  "output": "src/CMakeFiles/YourLibraryName.dir/piece.cpp.o"
 },
 {
   "directory": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/src",

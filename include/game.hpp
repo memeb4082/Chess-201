@@ -1,6 +1,6 @@
-#ifndef BOARD_H
+#ifndef BOARD_HPP
 
-#define BOARD_H 1
+#define BOARD_HPP 1
 
 #include <stdlib.h>
 #include <stdint.h>
@@ -11,15 +11,15 @@ namespace Board
 {
     class Game
     {
-        public:
-            int size_x;
-            int size_y;
-            Piece **game;
-            Game();
-            Game(int size_x, int size_y);
-            ~Game();
-            void setState(std::string filename);
-            void printGame();
+    public:
+        int size_x;
+        int size_y;
+        Piece **game;
+        Game();
+        Game(int size_x, int size_y);
+        ~Game();
+        void setState(std::string filename);
+        void printGame();
     };
 }
 
