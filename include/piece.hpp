@@ -1,25 +1,18 @@
-
 #pragma once
+#include "variables.h"
+#include <string>
 #include <iostream>
-#include "board.hpp"
-namespace Game
+class Piece
 {
-    class Piece
-    {
-    public:
-        enum Team
-        {
-            WHITE,
-            BLACK
-        };
-    
-    private:
-        Team team;
-    public:
-        Piece(Team team);
-        virtual void possibleMoves(Board board) const = 0;
-        virtual void possibleAttacks(Board board) const = 0;
-        virtual bool getTeam() const = 0;
-        virtual ~Piece() {};
-    };
-}
+private:
+    PieceType type;
+
+public:
+    TeamColor team; // TODO: Make private maybe
+    Piece(PieceType type, TeamColor team);
+    virtual char getChar() const = 0;
+    virtual void moves() const = 0;
+    virtual void attacks() const = 0;
+
+    virtual ~Piece() {}
+};

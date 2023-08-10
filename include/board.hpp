@@ -1,16 +1,22 @@
 #pragma once
 #include <iostream>
-namespace Game
+#include <fstream>
+#include "piece.hpp"
+#include "zombie.hpp"
+#include "builder.hpp"
+#include "miner.hpp"
+#include "jester.hpp"
+#include "sentinel.hpp"
+#include "catapult.hpp"
+#include "dragon.hpp"
+#include "general.hpp"
+
+class Board
 {
-    class Board
-    {
-        private:
-            size_t size;
-            char **board;
-        public:
-            Board(size_t size);
-            Board(); // Read from default.env
-            void move_piece(size_t from, size_t to);
-            void print_board();
-    };
-}
+    private:
+        Piece* board[BOARD_SIZE][BOARD_SIZE];
+    public:
+        Board(char *filename);
+        void printBoard();
+        // ~Board();
+};

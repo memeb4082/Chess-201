@@ -1,15 +1,23 @@
 #include "zombie.hpp"
 
-namespace Game
-{
-    Zombie::Zombie(Team team) : Piece(team) {}
-    void Zombie::possibleMoves(Board board)
-    {
-        printf("Zombie::possibleMoves %d\n", static_cast<int>(getTeam()));
+Zombie::Zombie(TeamColor team) : Piece(PieceType::Zombie, team) {
+    // Constructor initialization, if needed
+}
+
+void Zombie::moves() const {
+    // Implement the moves of the Zombie piece
+    // ...
+    std::cout << "Zombie moves." << std::endl;
+}
+
+void Zombie::attacks() const {
+    // Implement the attacks of the Zombie piece
+    // ...
+    std::cout << "Zombie attacks." << std::endl;
+}
+char Zombie::getChar() const {
+    if (team == TeamColor::white) {
+        return 'Z';
     }
-    void Zombie::possibleAttacks(Board board)
-    {
-        printf("Zombie::possibleAttacks %d\n", static_cast<int>(getTeam()));
-    }
-    bool Zombie::getTeam() const { return Piece::getTeam(); }
+    return 'z';
 }

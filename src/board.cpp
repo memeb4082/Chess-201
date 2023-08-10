@@ -1,58 +1,92 @@
 #include "board.hpp"
-
-namespace Game
+Board::Board(char *filename)
 {
-    Board::Board()
+    std::ifstream state(filename);
+    if (!state)
     {
-        for (int i = 0; i < 9; i++)
-        {
-            for (int j = 0; j < 9; ++j)
-            {
-                board[i][j] = nullptr;
-            }
-        }
+        std::cerr << "Error loading state" << std::endl;
     }
-    void Board::printBoard() const
+    else
     {
-        printf("  ");
-        for (int i = 0; i < 9; i++)
+        for (int row = 0; row < BOARD_SIZE; row++)
         {
-            printf("%d ", i);
-        }
-        printf("\n");
-        for (int i = 0; i < 9; i++)
-        {
-            printf("%d ", i);
-            for (int j = 0; j < 9; ++j)
+            for (int col = 0; col < BOARD_SIZE; col++)
             {
-                if (board[i][j] == nullptr)
+                TeamColor t;
+                char c;
+                state >> c;
+                board[row][col] = nullptr;
+                if (std::isupper(c))
                 {
-                    printf("  ");
+                    t = TeamColor::white;
                 }
                 else
                 {
-                    printf("%d ", static_cast<int>(board[i][j]->getTeam()));
+                    t = TeamColor::black;
+                }
+                switch (std::tolower(c))
+                {
+                    case ('z'):
+                    {
+                        board[row][col] = new Zombie(t);
+                        break;
+                    }
+                    case ('b'):
+                    {
+                        board[row][col] = new Builder(t);
+                        break;
+                    }
+                    case ('m'):
+                    {
+                        board[row][col] = new Miner(t);
+                        break;
+                    }
+                    case ('j'):
+                    {
+                        board[row][col] = new Jester(t);
+                        break;
+                    }
+                    case ('s'):
+                    {
+                        board[row][col] = new Sentinel(t);
+                        break;
+                    }
+                    case ('c'):
+                    {
+                        board[row][col] = new Catapult(t);
+                        break;
+                    }
+                    case ('d'):
+                    {
+                        board[row][col] = new Dragon(t);
+                        break;
+                    }
+                    case ('g'):
+                    {
+                        board[row][col] = new General(t);
+                        break;
+                    }
                 }
             }
-            printf("\n");
         }
     }
-    void Board::setPiece(Piece *piece, int x, int y)
+}
+void Board::printBoard()
+{
+    for (int row = 0; row < BOARD_SIZE; row++)
     {
-        board[x][y] = piece;
-    }
-    Piece *Board::getPiece(int x, int y) const
-    {
-        return board[x][y];
-    }
-    Board::~Board()
-    {
-        for (int i = 0; i < 9; i++)
+        printf("%d ", row);
+        for (int col = 0; col < BOARD_SIZE; col++)
         {
-            for (int j = 0; j < 9; ++j)
+            if (board[row][col] == nullptr)
             {
-                delete board[i][j];
+                printf("*");
+            }
+            else
+            {
+                printf("%c", board[row][col]->getChar());
             }
         }
+        printf("\n");
     }
 }
