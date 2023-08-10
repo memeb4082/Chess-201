@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/clang++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/include
+CXX_INCLUDES = -I/Users/dinalatapattu/Desktop/QUT/Chess/include
 
 CXX_FLAGSarm64 = -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
 

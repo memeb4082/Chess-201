@@ -1,4 +1,4 @@
-# Install script for directory: /Users/dinalatapattu/Desktop/QUT/CAB201/Chess
+# Install script for directory: /Users/dinalatapattu/Desktop/QUT/Chess
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/src/cmake_install.cmake")
+  include("/Users/dinalatapattu/Desktop/QUT/Chess/build/src/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/dinalatapattu/Desktop/QUT/Chess/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

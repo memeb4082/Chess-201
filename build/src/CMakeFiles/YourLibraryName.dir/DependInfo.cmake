@@ -8,17 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/builder.cpp" "src/CMakeFiles/YourLibraryName.dir/builder.cpp.o" "gcc" "src/CMakeFiles/YourLibraryName.dir/builder.cpp.o.d"
-  "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/game.cpp" "src/CMakeFiles/YourLibraryName.dir/game.cpp.o" "gcc" "src/CMakeFiles/YourLibraryName.dir/game.cpp.o.d"
-  "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/jester.cpp" "src/CMakeFiles/YourLibraryName.dir/jester.cpp.o" "gcc" "src/CMakeFiles/YourLibraryName.dir/jester.cpp.o.d"
-  "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/main.cpp" "src/CMakeFiles/YourLibraryName.dir/main.cpp.o" "gcc" "src/CMakeFiles/YourLibraryName.dir/main.cpp.o.d"
-  "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/miner.cpp" "src/CMakeFiles/YourLibraryName.dir/miner.cpp.o" "gcc" "src/CMakeFiles/YourLibraryName.dir/miner.cpp.o.d"
-<<<<<<< HEAD
-  "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/piece.cpp" "src/CMakeFiles/YourLibraryName.dir/piece.cpp.o" "gcc" "src/CMakeFiles/YourLibraryName.dir/piece.cpp.o.d"
-=======
->>>>>>> bc18b25 (added tests, fixed cmake, some boilerplate, minor fixes)
-  "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/sentinel.cpp" "src/CMakeFiles/YourLibraryName.dir/sentinel.cpp.o" "gcc" "src/CMakeFiles/YourLibraryName.dir/sentinel.cpp.o.d"
-  "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/zombie.cpp" "src/CMakeFiles/YourLibraryName.dir/zombie.cpp.o" "gcc" "src/CMakeFiles/YourLibraryName.dir/zombie.cpp.o.d"
+  "/Users/dinalatapattu/Desktop/QUT/Chess/src/main.cpp" "src/CMakeFiles/YourLibraryName.dir/main.cpp.o" "gcc" "src/CMakeFiles/YourLibraryName.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

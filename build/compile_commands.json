@@ -1,104 +1,14 @@
 [
 {
-  "directory": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build",
-  "command": "/usr/bin/clang++  -I/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/YourExecutableName.dir/src/builder.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/builder.cpp",
-  "file": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/builder.cpp",
-  "output": "CMakeFiles/YourExecutableName.dir/src/builder.cpp.o"
-},
-{
-  "directory": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build",
-  "command": "/usr/bin/clang++  -I/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/YourExecutableName.dir/src/game.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/game.cpp",
-  "file": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/game.cpp",
-  "output": "CMakeFiles/YourExecutableName.dir/src/game.cpp.o"
-},
-{
-  "directory": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build",
-  "command": "/usr/bin/clang++  -I/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/YourExecutableName.dir/src/jester.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/jester.cpp",
-  "file": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/jester.cpp",
-  "output": "CMakeFiles/YourExecutableName.dir/src/jester.cpp.o"
-},
-{
-  "directory": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build",
-  "command": "/usr/bin/clang++  -I/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/YourExecutableName.dir/src/main.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/main.cpp",
-  "file": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/main.cpp",
+  "directory": "/Users/dinalatapattu/Desktop/QUT/Chess/build",
+  "command": "/usr/bin/clang++  -I/Users/dinalatapattu/Desktop/QUT/Chess/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/YourExecutableName.dir/src/main.cpp.o -c /Users/dinalatapattu/Desktop/QUT/Chess/src/main.cpp",
+  "file": "/Users/dinalatapattu/Desktop/QUT/Chess/src/main.cpp",
   "output": "CMakeFiles/YourExecutableName.dir/src/main.cpp.o"
 },
 {
-  "directory": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build",
-  "command": "/usr/bin/clang++  -I/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/YourExecutableName.dir/src/miner.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/miner.cpp",
-  "file": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/miner.cpp",
-  "output": "CMakeFiles/YourExecutableName.dir/src/miner.cpp.o"
-},
-{
-  "directory": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build",
-<<<<<<< HEAD
-  "command": "/usr/bin/clang++  -I/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/YourExecutableName.dir/src/piece.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/piece.cpp",
-  "file": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/piece.cpp",
-  "output": "CMakeFiles/YourExecutableName.dir/src/piece.cpp.o"
-},
-{
-  "directory": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build",
-=======
->>>>>>> bc18b25 (added tests, fixed cmake, some boilerplate, minor fixes)
-  "command": "/usr/bin/clang++  -I/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/sentinel.cpp",
-  "file": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/sentinel.cpp",
-  "output": "CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.o"
-},
-{
-  "directory": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build",
-  "command": "/usr/bin/clang++  -I/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/YourExecutableName.dir/src/zombie.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/zombie.cpp",
-  "file": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/zombie.cpp",
-  "output": "CMakeFiles/YourExecutableName.dir/src/zombie.cpp.o"
-},
-{
-  "directory": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/src",
-  "command": "/usr/bin/clang++  -I/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/YourLibraryName.dir/builder.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/builder.cpp",
-  "file": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/builder.cpp",
-  "output": "src/CMakeFiles/YourLibraryName.dir/builder.cpp.o"
-},
-{
-  "directory": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/src",
-  "command": "/usr/bin/clang++  -I/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/YourLibraryName.dir/game.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/game.cpp",
-  "file": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/game.cpp",
-  "output": "src/CMakeFiles/YourLibraryName.dir/game.cpp.o"
-},
-{
-  "directory": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/src",
-  "command": "/usr/bin/clang++  -I/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/YourLibraryName.dir/jester.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/jester.cpp",
-  "file": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/jester.cpp",
-  "output": "src/CMakeFiles/YourLibraryName.dir/jester.cpp.o"
-},
-{
-  "directory": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/src",
-  "command": "/usr/bin/clang++  -I/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/YourLibraryName.dir/main.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/main.cpp",
-  "file": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/main.cpp",
+  "directory": "/Users/dinalatapattu/Desktop/QUT/Chess/build/src",
+  "command": "/usr/bin/clang++  -I/Users/dinalatapattu/Desktop/QUT/Chess/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/YourLibraryName.dir/main.cpp.o -c /Users/dinalatapattu/Desktop/QUT/Chess/src/main.cpp",
+  "file": "/Users/dinalatapattu/Desktop/QUT/Chess/src/main.cpp",
   "output": "src/CMakeFiles/YourLibraryName.dir/main.cpp.o"
-},
-{
-  "directory": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/src",
-  "command": "/usr/bin/clang++  -I/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/YourLibraryName.dir/miner.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/miner.cpp",
-  "file": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/miner.cpp",
-  "output": "src/CMakeFiles/YourLibraryName.dir/miner.cpp.o"
-},
-{
-  "directory": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/src",
-<<<<<<< HEAD
-  "command": "/usr/bin/clang++  -I/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/YourLibraryName.dir/piece.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/piece.cpp",
-  "file": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/piece.cpp",
-  "output": "src/CMakeFiles/YourLibraryName.dir/piece.cpp.o"
-},
-{
-  "directory": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/src",
-=======
->>>>>>> bc18b25 (added tests, fixed cmake, some boilerplate, minor fixes)
-  "command": "/usr/bin/clang++  -I/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/YourLibraryName.dir/sentinel.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/sentinel.cpp",
-  "file": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/sentinel.cpp",
-  "output": "src/CMakeFiles/YourLibraryName.dir/sentinel.cpp.o"
-},
-{
-  "directory": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/src",
-  "command": "/usr/bin/clang++  -I/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/include -g -std=gnu++11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -o CMakeFiles/YourLibraryName.dir/zombie.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/zombie.cpp",
-  "file": "/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/zombie.cpp",
-  "output": "src/CMakeFiles/YourLibraryName.dir/zombie.cpp.o"
 }
 ]

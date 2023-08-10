@@ -1,24 +1,18 @@
-#ifndef ZOMBIE_HPP
-#define ZOMBIE_HPP 1
-
-#include <iostream>
-#include <stdint.h>
+#pragma once
 #include "piece.hpp"
 
-namespace Board
+namespace Game
 {
     class Zombie : public Piece
     {
-    private:
-        bool* isWhite;
-
-    public:
-        Zombie();
-        bool getIsWhite();
-        void setIsWhite(bool isWhite);
-        std::vector<std::pair<int, int>> getAllMoves(int *pos, int *dim) override;
-        std::vector<std::pair<int, int>> getAllAttacks(int *pos, int *dim) override;
+        private:
+            // bool attackMatrix[9][9];
+            // bool moveMatrix[9][9];
+        public:
+            Zombie(Team team);
+            void possibleMoves(Board board) const override;
+            void possibleAttacks(Board board) const override;
+            bool getTeam() const override;
+            ~Zombie(){};
     };
 }
-
-#endif

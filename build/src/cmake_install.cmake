@@ -1,4 +1,4 @@
-# Install script for directory: /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src
+# Install script for directory: /Users/dinalatapattu/Desktop/QUT/Chess/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

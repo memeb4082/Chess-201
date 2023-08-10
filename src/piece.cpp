@@ -1,18 +1,7 @@
 #include "piece.hpp"
 
-namespace Board
+namespace Game
 {
-    Piece::Piece() {}
-    Piece::~Piece()
-    {
-        delete isWhite;
-    }
-    bool Piece::getIsWhite()
-    {
-        return *this->isWhite;
-    }
-    void Piece::setIsWhite(bool isWhite)
-    {
-        *this->isWhite = isWhite;
-    }
+    Piece::Piece(Team _team) : team(_team) {}
+    Piece::Team Piece::getTeam() const { return team; }
 }

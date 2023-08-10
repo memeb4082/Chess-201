@@ -1,19 +1,15 @@
 #include "zombie.hpp"
 
-namespace Board
+namespace Game
 {
-    // Constructor
-    Zombie::Zombie() : Piece() {}
-    std::vector<std::pair<int, int>> Zombie::getAllMoves(int *pos, int *dim)
+    Zombie::Zombie(Team team) : Piece(team) {}
+    void Zombie::possibleMoves(Board board)
     {
-        // std::vector<std::pair<int, int>> arrayOfPairs(arraySize);
-        // return *arr;
-        std::vector<std::pair<int, int>> arr;
-        return arr;
+        printf("Zombie::possibleMoves %d\n", static_cast<int>(getTeam()));
     }
-    std::vector<std::pair<int, int>> Zombie::getAllAttacks(int *pos, int *dim)
+    void Zombie::possibleAttacks(Board board)
     {
-        std::vector<std::pair<int, int>> arr;
-        return arr;
+        printf("Zombie::possibleAttacks %d\n", static_cast<int>(getTeam()));
     }
+    bool Zombie::getTeam() const { return Piece::getTeam(); }
 }

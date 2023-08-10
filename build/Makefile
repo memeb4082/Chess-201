@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/dinalatapattu/Desktop/QUT/CAB201/Chess
+CMAKE_SOURCE_DIR = /Users/dinalatapattu/Desktop/QUT/Chess
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build
+CMAKE_BINARY_DIR = /Users/dinalatapattu/Desktop/QUT/Chess/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dinalatapattu/Desktop/QUT/Chess/build/CMakeFiles /Users/dinalatapattu/Desktop/QUT/Chess/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dinalatapattu/Desktop/QUT/Chess/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -142,78 +142,6 @@ YourLibraryName/fast:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/build
 .PHONY : YourLibraryName/fast
 
-src/builder.o: src/builder.cpp.o
-.PHONY : src/builder.o
-
-# target to build an object file
-src/builder.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/builder.cpp.o
-.PHONY : src/builder.cpp.o
-
-src/builder.i: src/builder.cpp.i
-.PHONY : src/builder.i
-
-# target to preprocess a source file
-src/builder.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/builder.cpp.i
-.PHONY : src/builder.cpp.i
-
-src/builder.s: src/builder.cpp.s
-.PHONY : src/builder.s
-
-# target to generate assembly for a file
-src/builder.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/builder.cpp.s
-.PHONY : src/builder.cpp.s
-
-src/game.o: src/game.cpp.o
-.PHONY : src/game.o
-
-# target to build an object file
-src/game.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/game.cpp.o
-.PHONY : src/game.cpp.o
-
-src/game.i: src/game.cpp.i
-.PHONY : src/game.i
-
-# target to preprocess a source file
-src/game.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/game.cpp.i
-.PHONY : src/game.cpp.i
-
-src/game.s: src/game.cpp.s
-.PHONY : src/game.s
-
-# target to generate assembly for a file
-src/game.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/game.cpp.s
-.PHONY : src/game.cpp.s
-
-src/jester.o: src/jester.cpp.o
-.PHONY : src/jester.o
-
-# target to build an object file
-src/jester.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/jester.cpp.o
-.PHONY : src/jester.cpp.o
-
-src/jester.i: src/jester.cpp.i
-.PHONY : src/jester.i
-
-# target to preprocess a source file
-src/jester.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/jester.cpp.i
-.PHONY : src/jester.cpp.i
-
-src/jester.s: src/jester.cpp.s
-.PHONY : src/jester.s
-
-# target to generate assembly for a file
-src/jester.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/jester.cpp.s
-.PHONY : src/jester.cpp.s
-
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -238,105 +166,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/miner.o: src/miner.cpp.o
-.PHONY : src/miner.o
-
-# target to build an object file
-src/miner.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/miner.cpp.o
-.PHONY : src/miner.cpp.o
-
-src/miner.i: src/miner.cpp.i
-.PHONY : src/miner.i
-
-# target to preprocess a source file
-src/miner.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/miner.cpp.i
-.PHONY : src/miner.cpp.i
-
-src/miner.s: src/miner.cpp.s
-.PHONY : src/miner.s
-
-# target to generate assembly for a file
-src/miner.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/miner.cpp.s
-.PHONY : src/miner.cpp.s
-
-<<<<<<< HEAD
-src/piece.o: src/piece.cpp.o
-.PHONY : src/piece.o
-
-# target to build an object file
-src/piece.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/piece.cpp.o
-.PHONY : src/piece.cpp.o
-
-src/piece.i: src/piece.cpp.i
-.PHONY : src/piece.i
-
-# target to preprocess a source file
-src/piece.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/piece.cpp.i
-.PHONY : src/piece.cpp.i
-
-src/piece.s: src/piece.cpp.s
-.PHONY : src/piece.s
-
-# target to generate assembly for a file
-src/piece.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/piece.cpp.s
-.PHONY : src/piece.cpp.s
-
-=======
->>>>>>> bc18b25 (added tests, fixed cmake, some boilerplate, minor fixes)
-src/sentinel.o: src/sentinel.cpp.o
-.PHONY : src/sentinel.o
-
-# target to build an object file
-src/sentinel.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.o
-.PHONY : src/sentinel.cpp.o
-
-src/sentinel.i: src/sentinel.cpp.i
-.PHONY : src/sentinel.i
-
-# target to preprocess a source file
-src/sentinel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.i
-.PHONY : src/sentinel.cpp.i
-
-src/sentinel.s: src/sentinel.cpp.s
-.PHONY : src/sentinel.s
-
-# target to generate assembly for a file
-src/sentinel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.s
-.PHONY : src/sentinel.cpp.s
-
-src/zombie.o: src/zombie.cpp.o
-.PHONY : src/zombie.o
-
-# target to build an object file
-src/zombie.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/zombie.cpp.o
-.PHONY : src/zombie.cpp.o
-
-src/zombie.i: src/zombie.cpp.i
-.PHONY : src/zombie.i
-
-# target to preprocess a source file
-src/zombie.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/zombie.cpp.i
-.PHONY : src/zombie.cpp.i
-
-src/zombie.s: src/zombie.cpp.s
-.PHONY : src/zombie.s
-
-# target to generate assembly for a file
-src/zombie.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/zombie.cpp.s
-.PHONY : src/zombie.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -347,33 +176,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... YourExecutableName"
 	@echo "... YourLibraryName"
-	@echo "... src/builder.o"
-	@echo "... src/builder.i"
-	@echo "... src/builder.s"
-	@echo "... src/game.o"
-	@echo "... src/game.i"
-	@echo "... src/game.s"
-	@echo "... src/jester.o"
-	@echo "... src/jester.i"
-	@echo "... src/jester.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/miner.o"
-	@echo "... src/miner.i"
-	@echo "... src/miner.s"
-<<<<<<< HEAD
-	@echo "... src/piece.o"
-	@echo "... src/piece.i"
-	@echo "... src/piece.s"
-=======
->>>>>>> bc18b25 (added tests, fixed cmake, some boilerplate, minor fixes)
-	@echo "... src/sentinel.o"
-	@echo "... src/sentinel.i"
-	@echo "... src/sentinel.s"
-	@echo "... src/zombie.o"
-	@echo "... src/zombie.i"
-	@echo "... src/zombie.s"
 .PHONY : help
 
 

@@ -1,6 +1,6 @@
-/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles/YourExecutableName.dir
-/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles/edit_cache.dir
-/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles/rebuild_cache.dir
-/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/src/CMakeFiles/YourLibraryName.dir
-/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/src/CMakeFiles/edit_cache.dir
-/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/src/CMakeFiles/rebuild_cache.dir
+/Users/dinalatapattu/Desktop/QUT/Chess/build/CMakeFiles/YourExecutableName.dir
+/Users/dinalatapattu/Desktop/QUT/Chess/build/CMakeFiles/edit_cache.dir
+/Users/dinalatapattu/Desktop/QUT/Chess/build/CMakeFiles/rebuild_cache.dir
+/Users/dinalatapattu/Desktop/QUT/Chess/build/src/CMakeFiles/YourLibraryName.dir
+/Users/dinalatapattu/Desktop/QUT/Chess/build/src/CMakeFiles/edit_cache.dir
+/Users/dinalatapattu/Desktop/QUT/Chess/build/src/CMakeFiles/rebuild_cache.dir

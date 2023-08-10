@@ -57,10 +57,10 @@ RM = /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/dinalatapattu/Desktop/QUT/CAB201/Chess
+CMAKE_SOURCE_DIR = /Users/dinalatapattu/Desktop/QUT/Chess
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build
+CMAKE_BINARY_DIR = /Users/dinalatapattu/Desktop/QUT/Chess/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/src//CMakeFiles/progress.marks
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles 0
+	cd /Users/dinalatapattu/Desktop/QUT/Chess/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/dinalatapattu/Desktop/QUT/Chess/build/CMakeFiles /Users/dinalatapattu/Desktop/QUT/Chess/build/src//CMakeFiles/progress.marks
+	cd /Users/dinalatapattu/Desktop/QUT/Chess/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dinalatapattu/Desktop/QUT/Chess/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /Users/dinalatapattu/Desktop/QUT/Chess/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /Users/dinalatapattu/Desktop/QUT/Chess/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /Users/dinalatapattu/Desktop/QUT/Chess/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/dinalatapattu/Desktop/QUT/Chess/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/YourLibraryName.dir/rule:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/YourLibraryName.dir/rule
+	cd /Users/dinalatapattu/Desktop/QUT/Chess/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/YourLibraryName.dir/rule
 .PHONY : src/CMakeFiles/YourLibraryName.dir/rule
 
 # Convenience name for target.
@@ -127,87 +127,15 @@ YourLibraryName: src/CMakeFiles/YourLibraryName.dir/rule
 
 # fast build rule for target.
 YourLibraryName/fast:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/build
+	cd /Users/dinalatapattu/Desktop/QUT/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/build
 .PHONY : YourLibraryName/fast
-
-builder.o: builder.cpp.o
-.PHONY : builder.o
-
-# target to build an object file
-builder.cpp.o:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/builder.cpp.o
-.PHONY : builder.cpp.o
-
-builder.i: builder.cpp.i
-.PHONY : builder.i
-
-# target to preprocess a source file
-builder.cpp.i:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/builder.cpp.i
-.PHONY : builder.cpp.i
-
-builder.s: builder.cpp.s
-.PHONY : builder.s
-
-# target to generate assembly for a file
-builder.cpp.s:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/builder.cpp.s
-.PHONY : builder.cpp.s
-
-game.o: game.cpp.o
-.PHONY : game.o
-
-# target to build an object file
-game.cpp.o:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/game.cpp.o
-.PHONY : game.cpp.o
-
-game.i: game.cpp.i
-.PHONY : game.i
-
-# target to preprocess a source file
-game.cpp.i:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/game.cpp.i
-.PHONY : game.cpp.i
-
-game.s: game.cpp.s
-.PHONY : game.s
-
-# target to generate assembly for a file
-game.cpp.s:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/game.cpp.s
-.PHONY : game.cpp.s
-
-jester.o: jester.cpp.o
-.PHONY : jester.o
-
-# target to build an object file
-jester.cpp.o:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/jester.cpp.o
-.PHONY : jester.cpp.o
-
-jester.i: jester.cpp.i
-.PHONY : jester.i
-
-# target to preprocess a source file
-jester.cpp.i:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/jester.cpp.i
-.PHONY : jester.cpp.i
-
-jester.s: jester.cpp.s
-.PHONY : jester.s
-
-# target to generate assembly for a file
-jester.cpp.s:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/jester.cpp.s
-.PHONY : jester.cpp.s
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/main.cpp.o
+	cd /Users/dinalatapattu/Desktop/QUT/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -215,7 +143,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/main.cpp.i
+	cd /Users/dinalatapattu/Desktop/QUT/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -223,107 +151,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/main.cpp.s
+	cd /Users/dinalatapattu/Desktop/QUT/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/main.cpp.s
 .PHONY : main.cpp.s
-
-miner.o: miner.cpp.o
-.PHONY : miner.o
-
-# target to build an object file
-miner.cpp.o:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/miner.cpp.o
-.PHONY : miner.cpp.o
-
-miner.i: miner.cpp.i
-.PHONY : miner.i
-
-# target to preprocess a source file
-miner.cpp.i:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/miner.cpp.i
-.PHONY : miner.cpp.i
-
-miner.s: miner.cpp.s
-.PHONY : miner.s
-
-# target to generate assembly for a file
-miner.cpp.s:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/miner.cpp.s
-.PHONY : miner.cpp.s
-
-<<<<<<< HEAD
-piece.o: piece.cpp.o
-.PHONY : piece.o
-
-# target to build an object file
-piece.cpp.o:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/piece.cpp.o
-.PHONY : piece.cpp.o
-
-piece.i: piece.cpp.i
-.PHONY : piece.i
-
-# target to preprocess a source file
-piece.cpp.i:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/piece.cpp.i
-.PHONY : piece.cpp.i
-
-piece.s: piece.cpp.s
-.PHONY : piece.s
-
-# target to generate assembly for a file
-piece.cpp.s:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/piece.cpp.s
-.PHONY : piece.cpp.s
-
-=======
->>>>>>> bc18b25 (added tests, fixed cmake, some boilerplate, minor fixes)
-sentinel.o: sentinel.cpp.o
-.PHONY : sentinel.o
-
-# target to build an object file
-sentinel.cpp.o:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/sentinel.cpp.o
-.PHONY : sentinel.cpp.o
-
-sentinel.i: sentinel.cpp.i
-.PHONY : sentinel.i
-
-# target to preprocess a source file
-sentinel.cpp.i:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/sentinel.cpp.i
-.PHONY : sentinel.cpp.i
-
-sentinel.s: sentinel.cpp.s
-.PHONY : sentinel.s
-
-# target to generate assembly for a file
-sentinel.cpp.s:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/sentinel.cpp.s
-.PHONY : sentinel.cpp.s
-
-zombie.o: zombie.cpp.o
-.PHONY : zombie.o
-
-# target to build an object file
-zombie.cpp.o:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/zombie.cpp.o
-.PHONY : zombie.cpp.o
-
-zombie.i: zombie.cpp.i
-.PHONY : zombie.i
-
-# target to preprocess a source file
-zombie.cpp.i:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/zombie.cpp.i
-.PHONY : zombie.cpp.i
-
-zombie.s: zombie.cpp.s
-.PHONY : zombie.s
-
-# target to generate assembly for a file
-zombie.cpp.s:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/zombie.cpp.s
-.PHONY : zombie.cpp.s
 
 # Help Target
 help:
@@ -334,33 +163,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... YourLibraryName"
-	@echo "... builder.o"
-	@echo "... builder.i"
-	@echo "... builder.s"
-	@echo "... game.o"
-	@echo "... game.i"
-	@echo "... game.s"
-	@echo "... jester.o"
-	@echo "... jester.i"
-	@echo "... jester.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... miner.o"
-	@echo "... miner.i"
-	@echo "... miner.s"
-<<<<<<< HEAD
-	@echo "... piece.o"
-	@echo "... piece.i"
-	@echo "... piece.s"
-=======
->>>>>>> bc18b25 (added tests, fixed cmake, some boilerplate, minor fixes)
-	@echo "... sentinel.o"
-	@echo "... sentinel.i"
-	@echo "... sentinel.s"
-	@echo "... zombie.o"
-	@echo "... zombie.i"
-	@echo "... zombie.s"
 .PHONY : help
 
 
@@ -372,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/dinalatapattu/Desktop/QUT/Chess/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

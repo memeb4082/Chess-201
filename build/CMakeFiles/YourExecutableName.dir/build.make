@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.26.4/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/dinalatapattu/Desktop/QUT/CAB201/Chess
+CMAKE_SOURCE_DIR = /Users/dinalatapattu/Desktop/QUT/Chess
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build
+CMAKE_BINARY_DIR = /Users/dinalatapattu/Desktop/QUT/Chess/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/YourExecutableName.dir/depend.make
@@ -69,165 +69,32 @@ include CMakeFiles/YourExecutableName.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/YourExecutableName.dir/flags.make
 
-CMakeFiles/YourExecutableName.dir/src/builder.cpp.o: CMakeFiles/YourExecutableName.dir/flags.make
-CMakeFiles/YourExecutableName.dir/src/builder.cpp.o: /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/builder.cpp
-CMakeFiles/YourExecutableName.dir/src/builder.cpp.o: CMakeFiles/YourExecutableName.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/YourExecutableName.dir/src/builder.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YourExecutableName.dir/src/builder.cpp.o -MF CMakeFiles/YourExecutableName.dir/src/builder.cpp.o.d -o CMakeFiles/YourExecutableName.dir/src/builder.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/builder.cpp
-
-CMakeFiles/YourExecutableName.dir/src/builder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YourExecutableName.dir/src/builder.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/builder.cpp > CMakeFiles/YourExecutableName.dir/src/builder.cpp.i
-
-CMakeFiles/YourExecutableName.dir/src/builder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YourExecutableName.dir/src/builder.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/builder.cpp -o CMakeFiles/YourExecutableName.dir/src/builder.cpp.s
-
-CMakeFiles/YourExecutableName.dir/src/game.cpp.o: CMakeFiles/YourExecutableName.dir/flags.make
-CMakeFiles/YourExecutableName.dir/src/game.cpp.o: /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/game.cpp
-CMakeFiles/YourExecutableName.dir/src/game.cpp.o: CMakeFiles/YourExecutableName.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/YourExecutableName.dir/src/game.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YourExecutableName.dir/src/game.cpp.o -MF CMakeFiles/YourExecutableName.dir/src/game.cpp.o.d -o CMakeFiles/YourExecutableName.dir/src/game.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/game.cpp
-
-CMakeFiles/YourExecutableName.dir/src/game.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YourExecutableName.dir/src/game.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/game.cpp > CMakeFiles/YourExecutableName.dir/src/game.cpp.i
-
-CMakeFiles/YourExecutableName.dir/src/game.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YourExecutableName.dir/src/game.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/game.cpp -o CMakeFiles/YourExecutableName.dir/src/game.cpp.s
-
-CMakeFiles/YourExecutableName.dir/src/jester.cpp.o: CMakeFiles/YourExecutableName.dir/flags.make
-CMakeFiles/YourExecutableName.dir/src/jester.cpp.o: /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/jester.cpp
-CMakeFiles/YourExecutableName.dir/src/jester.cpp.o: CMakeFiles/YourExecutableName.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/YourExecutableName.dir/src/jester.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YourExecutableName.dir/src/jester.cpp.o -MF CMakeFiles/YourExecutableName.dir/src/jester.cpp.o.d -o CMakeFiles/YourExecutableName.dir/src/jester.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/jester.cpp
-
-CMakeFiles/YourExecutableName.dir/src/jester.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YourExecutableName.dir/src/jester.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/jester.cpp > CMakeFiles/YourExecutableName.dir/src/jester.cpp.i
-
-CMakeFiles/YourExecutableName.dir/src/jester.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YourExecutableName.dir/src/jester.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/jester.cpp -o CMakeFiles/YourExecutableName.dir/src/jester.cpp.s
-
 CMakeFiles/YourExecutableName.dir/src/main.cpp.o: CMakeFiles/YourExecutableName.dir/flags.make
-CMakeFiles/YourExecutableName.dir/src/main.cpp.o: /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/main.cpp
+CMakeFiles/YourExecutableName.dir/src/main.cpp.o: /Users/dinalatapattu/Desktop/QUT/Chess/src/main.cpp
 CMakeFiles/YourExecutableName.dir/src/main.cpp.o: CMakeFiles/YourExecutableName.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/YourExecutableName.dir/src/main.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YourExecutableName.dir/src/main.cpp.o -MF CMakeFiles/YourExecutableName.dir/src/main.cpp.o.d -o CMakeFiles/YourExecutableName.dir/src/main.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dinalatapattu/Desktop/QUT/Chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/YourExecutableName.dir/src/main.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YourExecutableName.dir/src/main.cpp.o -MF CMakeFiles/YourExecutableName.dir/src/main.cpp.o.d -o CMakeFiles/YourExecutableName.dir/src/main.cpp.o -c /Users/dinalatapattu/Desktop/QUT/Chess/src/main.cpp
 
 CMakeFiles/YourExecutableName.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YourExecutableName.dir/src/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/main.cpp > CMakeFiles/YourExecutableName.dir/src/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dinalatapattu/Desktop/QUT/Chess/src/main.cpp > CMakeFiles/YourExecutableName.dir/src/main.cpp.i
 
 CMakeFiles/YourExecutableName.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YourExecutableName.dir/src/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/main.cpp -o CMakeFiles/YourExecutableName.dir/src/main.cpp.s
-
-CMakeFiles/YourExecutableName.dir/src/miner.cpp.o: CMakeFiles/YourExecutableName.dir/flags.make
-CMakeFiles/YourExecutableName.dir/src/miner.cpp.o: /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/miner.cpp
-CMakeFiles/YourExecutableName.dir/src/miner.cpp.o: CMakeFiles/YourExecutableName.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/YourExecutableName.dir/src/miner.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YourExecutableName.dir/src/miner.cpp.o -MF CMakeFiles/YourExecutableName.dir/src/miner.cpp.o.d -o CMakeFiles/YourExecutableName.dir/src/miner.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/miner.cpp
-
-CMakeFiles/YourExecutableName.dir/src/miner.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YourExecutableName.dir/src/miner.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/miner.cpp > CMakeFiles/YourExecutableName.dir/src/miner.cpp.i
-
-CMakeFiles/YourExecutableName.dir/src/miner.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YourExecutableName.dir/src/miner.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/miner.cpp -o CMakeFiles/YourExecutableName.dir/src/miner.cpp.s
-
-<<<<<<< HEAD
-CMakeFiles/YourExecutableName.dir/src/piece.cpp.o: CMakeFiles/YourExecutableName.dir/flags.make
-CMakeFiles/YourExecutableName.dir/src/piece.cpp.o: /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/piece.cpp
-CMakeFiles/YourExecutableName.dir/src/piece.cpp.o: CMakeFiles/YourExecutableName.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/YourExecutableName.dir/src/piece.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YourExecutableName.dir/src/piece.cpp.o -MF CMakeFiles/YourExecutableName.dir/src/piece.cpp.o.d -o CMakeFiles/YourExecutableName.dir/src/piece.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/piece.cpp
-
-CMakeFiles/YourExecutableName.dir/src/piece.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YourExecutableName.dir/src/piece.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/piece.cpp > CMakeFiles/YourExecutableName.dir/src/piece.cpp.i
-
-CMakeFiles/YourExecutableName.dir/src/piece.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YourExecutableName.dir/src/piece.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/piece.cpp -o CMakeFiles/YourExecutableName.dir/src/piece.cpp.s
-
-CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.o: CMakeFiles/YourExecutableName.dir/flags.make
-CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.o: /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/sentinel.cpp
-CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.o: CMakeFiles/YourExecutableName.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.o"
-=======
-CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.o: CMakeFiles/YourExecutableName.dir/flags.make
-CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.o: /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/sentinel.cpp
-CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.o: CMakeFiles/YourExecutableName.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.o"
->>>>>>> bc18b25 (added tests, fixed cmake, some boilerplate, minor fixes)
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.o -MF CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.o.d -o CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/sentinel.cpp
-
-CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/sentinel.cpp > CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.i
-
-CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/sentinel.cpp -o CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.s
-
-CMakeFiles/YourExecutableName.dir/src/zombie.cpp.o: CMakeFiles/YourExecutableName.dir/flags.make
-CMakeFiles/YourExecutableName.dir/src/zombie.cpp.o: /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/zombie.cpp
-CMakeFiles/YourExecutableName.dir/src/zombie.cpp.o: CMakeFiles/YourExecutableName.dir/compiler_depend.ts
-<<<<<<< HEAD
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/YourExecutableName.dir/src/zombie.cpp.o"
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/YourExecutableName.dir/src/zombie.cpp.o"
->>>>>>> bc18b25 (added tests, fixed cmake, some boilerplate, minor fixes)
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/YourExecutableName.dir/src/zombie.cpp.o -MF CMakeFiles/YourExecutableName.dir/src/zombie.cpp.o.d -o CMakeFiles/YourExecutableName.dir/src/zombie.cpp.o -c /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/zombie.cpp
-
-CMakeFiles/YourExecutableName.dir/src/zombie.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YourExecutableName.dir/src/zombie.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/zombie.cpp > CMakeFiles/YourExecutableName.dir/src/zombie.cpp.i
-
-CMakeFiles/YourExecutableName.dir/src/zombie.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YourExecutableName.dir/src/zombie.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/src/zombie.cpp -o CMakeFiles/YourExecutableName.dir/src/zombie.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/dinalatapattu/Desktop/QUT/Chess/src/main.cpp -o CMakeFiles/YourExecutableName.dir/src/main.cpp.s
 
 # Object files for target YourExecutableName
 YourExecutableName_OBJECTS = \
-"CMakeFiles/YourExecutableName.dir/src/builder.cpp.o" \
-"CMakeFiles/YourExecutableName.dir/src/game.cpp.o" \
-"CMakeFiles/YourExecutableName.dir/src/jester.cpp.o" \
-"CMakeFiles/YourExecutableName.dir/src/main.cpp.o" \
-"CMakeFiles/YourExecutableName.dir/src/miner.cpp.o" \
-<<<<<<< HEAD
-"CMakeFiles/YourExecutableName.dir/src/piece.cpp.o" \
-=======
->>>>>>> bc18b25 (added tests, fixed cmake, some boilerplate, minor fixes)
-"CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.o" \
-"CMakeFiles/YourExecutableName.dir/src/zombie.cpp.o"
+"CMakeFiles/YourExecutableName.dir/src/main.cpp.o"
 
 # External object files for target YourExecutableName
 YourExecutableName_EXTERNAL_OBJECTS =
 
-YourExecutableName: CMakeFiles/YourExecutableName.dir/src/builder.cpp.o
-YourExecutableName: CMakeFiles/YourExecutableName.dir/src/game.cpp.o
-YourExecutableName: CMakeFiles/YourExecutableName.dir/src/jester.cpp.o
 YourExecutableName: CMakeFiles/YourExecutableName.dir/src/main.cpp.o
-YourExecutableName: CMakeFiles/YourExecutableName.dir/src/miner.cpp.o
-<<<<<<< HEAD
-YourExecutableName: CMakeFiles/YourExecutableName.dir/src/piece.cpp.o
-=======
->>>>>>> bc18b25 (added tests, fixed cmake, some boilerplate, minor fixes)
-YourExecutableName: CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.o
-YourExecutableName: CMakeFiles/YourExecutableName.dir/src/zombie.cpp.o
 YourExecutableName: CMakeFiles/YourExecutableName.dir/build.make
 YourExecutableName: src/libYourLibraryName.a
 YourExecutableName: CMakeFiles/YourExecutableName.dir/link.txt
-<<<<<<< HEAD
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable YourExecutableName"
-=======
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable YourExecutableName"
->>>>>>> bc18b25 (added tests, fixed cmake, some boilerplate, minor fixes)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/dinalatapattu/Desktop/QUT/Chess/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable YourExecutableName"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/YourExecutableName.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -239,6 +106,6 @@ CMakeFiles/YourExecutableName.dir/clean:
 .PHONY : CMakeFiles/YourExecutableName.dir/clean
 
 CMakeFiles/YourExecutableName.dir/depend:
-	cd /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/dinalatapattu/Desktop/QUT/CAB201/Chess /Users/dinalatapattu/Desktop/QUT/CAB201/Chess /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build /Users/dinalatapattu/Desktop/QUT/CAB201/Chess/build/CMakeFiles/YourExecutableName.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/dinalatapattu/Desktop/QUT/Chess/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/dinalatapattu/Desktop/QUT/Chess /Users/dinalatapattu/Desktop/QUT/Chess /Users/dinalatapattu/Desktop/QUT/Chess/build /Users/dinalatapattu/Desktop/QUT/Chess/build /Users/dinalatapattu/Desktop/QUT/Chess/build/CMakeFiles/YourExecutableName.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/YourExecutableName.dir/depend
 
