@@ -73,155 +73,155 @@ src/CMakeFiles/YourLibraryName.dir/board.cpp.o: src/CMakeFiles/YourLibraryName.d
 src/CMakeFiles/YourLibraryName.dir/board.cpp.o: ../src/board.cpp
 src/CMakeFiles/YourLibraryName.dir/board.cpp.o: src/CMakeFiles/YourLibraryName.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Chess-201/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/YourLibraryName.dir/board.cpp.o"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/YourLibraryName.dir/board.cpp.o -MF CMakeFiles/YourLibraryName.dir/board.cpp.o.d -o CMakeFiles/YourLibraryName.dir/board.cpp.o -c /workspaces/Chess-201/src/board.cpp
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/YourLibraryName.dir/board.cpp.o -MF CMakeFiles/YourLibraryName.dir/board.cpp.o.d -o CMakeFiles/YourLibraryName.dir/board.cpp.o -c /workspaces/Chess-201/src/board.cpp
 
 src/CMakeFiles/YourLibraryName.dir/board.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YourLibraryName.dir/board.cpp.i"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Chess-201/src/board.cpp > CMakeFiles/YourLibraryName.dir/board.cpp.i
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Chess-201/src/board.cpp > CMakeFiles/YourLibraryName.dir/board.cpp.i
 
 src/CMakeFiles/YourLibraryName.dir/board.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YourLibraryName.dir/board.cpp.s"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Chess-201/src/board.cpp -o CMakeFiles/YourLibraryName.dir/board.cpp.s
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Chess-201/src/board.cpp -o CMakeFiles/YourLibraryName.dir/board.cpp.s
 
 src/CMakeFiles/YourLibraryName.dir/builder.cpp.o: src/CMakeFiles/YourLibraryName.dir/flags.make
 src/CMakeFiles/YourLibraryName.dir/builder.cpp.o: ../src/builder.cpp
 src/CMakeFiles/YourLibraryName.dir/builder.cpp.o: src/CMakeFiles/YourLibraryName.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Chess-201/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/YourLibraryName.dir/builder.cpp.o"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/YourLibraryName.dir/builder.cpp.o -MF CMakeFiles/YourLibraryName.dir/builder.cpp.o.d -o CMakeFiles/YourLibraryName.dir/builder.cpp.o -c /workspaces/Chess-201/src/builder.cpp
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/YourLibraryName.dir/builder.cpp.o -MF CMakeFiles/YourLibraryName.dir/builder.cpp.o.d -o CMakeFiles/YourLibraryName.dir/builder.cpp.o -c /workspaces/Chess-201/src/builder.cpp
 
 src/CMakeFiles/YourLibraryName.dir/builder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YourLibraryName.dir/builder.cpp.i"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Chess-201/src/builder.cpp > CMakeFiles/YourLibraryName.dir/builder.cpp.i
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Chess-201/src/builder.cpp > CMakeFiles/YourLibraryName.dir/builder.cpp.i
 
 src/CMakeFiles/YourLibraryName.dir/builder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YourLibraryName.dir/builder.cpp.s"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Chess-201/src/builder.cpp -o CMakeFiles/YourLibraryName.dir/builder.cpp.s
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Chess-201/src/builder.cpp -o CMakeFiles/YourLibraryName.dir/builder.cpp.s
 
 src/CMakeFiles/YourLibraryName.dir/catapult.cpp.o: src/CMakeFiles/YourLibraryName.dir/flags.make
 src/CMakeFiles/YourLibraryName.dir/catapult.cpp.o: ../src/catapult.cpp
 src/CMakeFiles/YourLibraryName.dir/catapult.cpp.o: src/CMakeFiles/YourLibraryName.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Chess-201/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/YourLibraryName.dir/catapult.cpp.o"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/YourLibraryName.dir/catapult.cpp.o -MF CMakeFiles/YourLibraryName.dir/catapult.cpp.o.d -o CMakeFiles/YourLibraryName.dir/catapult.cpp.o -c /workspaces/Chess-201/src/catapult.cpp
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/YourLibraryName.dir/catapult.cpp.o -MF CMakeFiles/YourLibraryName.dir/catapult.cpp.o.d -o CMakeFiles/YourLibraryName.dir/catapult.cpp.o -c /workspaces/Chess-201/src/catapult.cpp
 
 src/CMakeFiles/YourLibraryName.dir/catapult.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YourLibraryName.dir/catapult.cpp.i"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Chess-201/src/catapult.cpp > CMakeFiles/YourLibraryName.dir/catapult.cpp.i
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Chess-201/src/catapult.cpp > CMakeFiles/YourLibraryName.dir/catapult.cpp.i
 
 src/CMakeFiles/YourLibraryName.dir/catapult.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YourLibraryName.dir/catapult.cpp.s"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Chess-201/src/catapult.cpp -o CMakeFiles/YourLibraryName.dir/catapult.cpp.s
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Chess-201/src/catapult.cpp -o CMakeFiles/YourLibraryName.dir/catapult.cpp.s
 
 src/CMakeFiles/YourLibraryName.dir/dragon.cpp.o: src/CMakeFiles/YourLibraryName.dir/flags.make
 src/CMakeFiles/YourLibraryName.dir/dragon.cpp.o: ../src/dragon.cpp
 src/CMakeFiles/YourLibraryName.dir/dragon.cpp.o: src/CMakeFiles/YourLibraryName.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Chess-201/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/CMakeFiles/YourLibraryName.dir/dragon.cpp.o"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/YourLibraryName.dir/dragon.cpp.o -MF CMakeFiles/YourLibraryName.dir/dragon.cpp.o.d -o CMakeFiles/YourLibraryName.dir/dragon.cpp.o -c /workspaces/Chess-201/src/dragon.cpp
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/YourLibraryName.dir/dragon.cpp.o -MF CMakeFiles/YourLibraryName.dir/dragon.cpp.o.d -o CMakeFiles/YourLibraryName.dir/dragon.cpp.o -c /workspaces/Chess-201/src/dragon.cpp
 
 src/CMakeFiles/YourLibraryName.dir/dragon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YourLibraryName.dir/dragon.cpp.i"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Chess-201/src/dragon.cpp > CMakeFiles/YourLibraryName.dir/dragon.cpp.i
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Chess-201/src/dragon.cpp > CMakeFiles/YourLibraryName.dir/dragon.cpp.i
 
 src/CMakeFiles/YourLibraryName.dir/dragon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YourLibraryName.dir/dragon.cpp.s"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Chess-201/src/dragon.cpp -o CMakeFiles/YourLibraryName.dir/dragon.cpp.s
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Chess-201/src/dragon.cpp -o CMakeFiles/YourLibraryName.dir/dragon.cpp.s
 
 src/CMakeFiles/YourLibraryName.dir/general.cpp.o: src/CMakeFiles/YourLibraryName.dir/flags.make
 src/CMakeFiles/YourLibraryName.dir/general.cpp.o: ../src/general.cpp
 src/CMakeFiles/YourLibraryName.dir/general.cpp.o: src/CMakeFiles/YourLibraryName.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Chess-201/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/CMakeFiles/YourLibraryName.dir/general.cpp.o"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/YourLibraryName.dir/general.cpp.o -MF CMakeFiles/YourLibraryName.dir/general.cpp.o.d -o CMakeFiles/YourLibraryName.dir/general.cpp.o -c /workspaces/Chess-201/src/general.cpp
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/YourLibraryName.dir/general.cpp.o -MF CMakeFiles/YourLibraryName.dir/general.cpp.o.d -o CMakeFiles/YourLibraryName.dir/general.cpp.o -c /workspaces/Chess-201/src/general.cpp
 
 src/CMakeFiles/YourLibraryName.dir/general.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YourLibraryName.dir/general.cpp.i"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Chess-201/src/general.cpp > CMakeFiles/YourLibraryName.dir/general.cpp.i
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Chess-201/src/general.cpp > CMakeFiles/YourLibraryName.dir/general.cpp.i
 
 src/CMakeFiles/YourLibraryName.dir/general.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YourLibraryName.dir/general.cpp.s"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Chess-201/src/general.cpp -o CMakeFiles/YourLibraryName.dir/general.cpp.s
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Chess-201/src/general.cpp -o CMakeFiles/YourLibraryName.dir/general.cpp.s
 
 src/CMakeFiles/YourLibraryName.dir/jester.cpp.o: src/CMakeFiles/YourLibraryName.dir/flags.make
 src/CMakeFiles/YourLibraryName.dir/jester.cpp.o: ../src/jester.cpp
 src/CMakeFiles/YourLibraryName.dir/jester.cpp.o: src/CMakeFiles/YourLibraryName.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Chess-201/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/YourLibraryName.dir/jester.cpp.o"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/YourLibraryName.dir/jester.cpp.o -MF CMakeFiles/YourLibraryName.dir/jester.cpp.o.d -o CMakeFiles/YourLibraryName.dir/jester.cpp.o -c /workspaces/Chess-201/src/jester.cpp
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/YourLibraryName.dir/jester.cpp.o -MF CMakeFiles/YourLibraryName.dir/jester.cpp.o.d -o CMakeFiles/YourLibraryName.dir/jester.cpp.o -c /workspaces/Chess-201/src/jester.cpp
 
 src/CMakeFiles/YourLibraryName.dir/jester.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YourLibraryName.dir/jester.cpp.i"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Chess-201/src/jester.cpp > CMakeFiles/YourLibraryName.dir/jester.cpp.i
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Chess-201/src/jester.cpp > CMakeFiles/YourLibraryName.dir/jester.cpp.i
 
 src/CMakeFiles/YourLibraryName.dir/jester.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YourLibraryName.dir/jester.cpp.s"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Chess-201/src/jester.cpp -o CMakeFiles/YourLibraryName.dir/jester.cpp.s
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Chess-201/src/jester.cpp -o CMakeFiles/YourLibraryName.dir/jester.cpp.s
 
 src/CMakeFiles/YourLibraryName.dir/main.cpp.o: src/CMakeFiles/YourLibraryName.dir/flags.make
 src/CMakeFiles/YourLibraryName.dir/main.cpp.o: ../src/main.cpp
 src/CMakeFiles/YourLibraryName.dir/main.cpp.o: src/CMakeFiles/YourLibraryName.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Chess-201/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/YourLibraryName.dir/main.cpp.o"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/YourLibraryName.dir/main.cpp.o -MF CMakeFiles/YourLibraryName.dir/main.cpp.o.d -o CMakeFiles/YourLibraryName.dir/main.cpp.o -c /workspaces/Chess-201/src/main.cpp
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/YourLibraryName.dir/main.cpp.o -MF CMakeFiles/YourLibraryName.dir/main.cpp.o.d -o CMakeFiles/YourLibraryName.dir/main.cpp.o -c /workspaces/Chess-201/src/main.cpp
 
 src/CMakeFiles/YourLibraryName.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YourLibraryName.dir/main.cpp.i"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Chess-201/src/main.cpp > CMakeFiles/YourLibraryName.dir/main.cpp.i
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Chess-201/src/main.cpp > CMakeFiles/YourLibraryName.dir/main.cpp.i
 
 src/CMakeFiles/YourLibraryName.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YourLibraryName.dir/main.cpp.s"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Chess-201/src/main.cpp -o CMakeFiles/YourLibraryName.dir/main.cpp.s
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Chess-201/src/main.cpp -o CMakeFiles/YourLibraryName.dir/main.cpp.s
 
 src/CMakeFiles/YourLibraryName.dir/miner.cpp.o: src/CMakeFiles/YourLibraryName.dir/flags.make
 src/CMakeFiles/YourLibraryName.dir/miner.cpp.o: ../src/miner.cpp
 src/CMakeFiles/YourLibraryName.dir/miner.cpp.o: src/CMakeFiles/YourLibraryName.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Chess-201/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/YourLibraryName.dir/miner.cpp.o"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/YourLibraryName.dir/miner.cpp.o -MF CMakeFiles/YourLibraryName.dir/miner.cpp.o.d -o CMakeFiles/YourLibraryName.dir/miner.cpp.o -c /workspaces/Chess-201/src/miner.cpp
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/YourLibraryName.dir/miner.cpp.o -MF CMakeFiles/YourLibraryName.dir/miner.cpp.o.d -o CMakeFiles/YourLibraryName.dir/miner.cpp.o -c /workspaces/Chess-201/src/miner.cpp
 
 src/CMakeFiles/YourLibraryName.dir/miner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YourLibraryName.dir/miner.cpp.i"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Chess-201/src/miner.cpp > CMakeFiles/YourLibraryName.dir/miner.cpp.i
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Chess-201/src/miner.cpp > CMakeFiles/YourLibraryName.dir/miner.cpp.i
 
 src/CMakeFiles/YourLibraryName.dir/miner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YourLibraryName.dir/miner.cpp.s"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Chess-201/src/miner.cpp -o CMakeFiles/YourLibraryName.dir/miner.cpp.s
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Chess-201/src/miner.cpp -o CMakeFiles/YourLibraryName.dir/miner.cpp.s
 
 src/CMakeFiles/YourLibraryName.dir/piece.cpp.o: src/CMakeFiles/YourLibraryName.dir/flags.make
 src/CMakeFiles/YourLibraryName.dir/piece.cpp.o: ../src/piece.cpp
 src/CMakeFiles/YourLibraryName.dir/piece.cpp.o: src/CMakeFiles/YourLibraryName.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Chess-201/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/YourLibraryName.dir/piece.cpp.o"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/YourLibraryName.dir/piece.cpp.o -MF CMakeFiles/YourLibraryName.dir/piece.cpp.o.d -o CMakeFiles/YourLibraryName.dir/piece.cpp.o -c /workspaces/Chess-201/src/piece.cpp
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/YourLibraryName.dir/piece.cpp.o -MF CMakeFiles/YourLibraryName.dir/piece.cpp.o.d -o CMakeFiles/YourLibraryName.dir/piece.cpp.o -c /workspaces/Chess-201/src/piece.cpp
 
 src/CMakeFiles/YourLibraryName.dir/piece.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YourLibraryName.dir/piece.cpp.i"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Chess-201/src/piece.cpp > CMakeFiles/YourLibraryName.dir/piece.cpp.i
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Chess-201/src/piece.cpp > CMakeFiles/YourLibraryName.dir/piece.cpp.i
 
 src/CMakeFiles/YourLibraryName.dir/piece.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YourLibraryName.dir/piece.cpp.s"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Chess-201/src/piece.cpp -o CMakeFiles/YourLibraryName.dir/piece.cpp.s
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Chess-201/src/piece.cpp -o CMakeFiles/YourLibraryName.dir/piece.cpp.s
 
 src/CMakeFiles/YourLibraryName.dir/sentinel.cpp.o: src/CMakeFiles/YourLibraryName.dir/flags.make
 src/CMakeFiles/YourLibraryName.dir/sentinel.cpp.o: ../src/sentinel.cpp
 src/CMakeFiles/YourLibraryName.dir/sentinel.cpp.o: src/CMakeFiles/YourLibraryName.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Chess-201/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/YourLibraryName.dir/sentinel.cpp.o"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/YourLibraryName.dir/sentinel.cpp.o -MF CMakeFiles/YourLibraryName.dir/sentinel.cpp.o.d -o CMakeFiles/YourLibraryName.dir/sentinel.cpp.o -c /workspaces/Chess-201/src/sentinel.cpp
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/YourLibraryName.dir/sentinel.cpp.o -MF CMakeFiles/YourLibraryName.dir/sentinel.cpp.o.d -o CMakeFiles/YourLibraryName.dir/sentinel.cpp.o -c /workspaces/Chess-201/src/sentinel.cpp
 
 src/CMakeFiles/YourLibraryName.dir/sentinel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YourLibraryName.dir/sentinel.cpp.i"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Chess-201/src/sentinel.cpp > CMakeFiles/YourLibraryName.dir/sentinel.cpp.i
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Chess-201/src/sentinel.cpp > CMakeFiles/YourLibraryName.dir/sentinel.cpp.i
 
 src/CMakeFiles/YourLibraryName.dir/sentinel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YourLibraryName.dir/sentinel.cpp.s"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Chess-201/src/sentinel.cpp -o CMakeFiles/YourLibraryName.dir/sentinel.cpp.s
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Chess-201/src/sentinel.cpp -o CMakeFiles/YourLibraryName.dir/sentinel.cpp.s
 
 src/CMakeFiles/YourLibraryName.dir/zombie.cpp.o: src/CMakeFiles/YourLibraryName.dir/flags.make
 src/CMakeFiles/YourLibraryName.dir/zombie.cpp.o: ../src/zombie.cpp
 src/CMakeFiles/YourLibraryName.dir/zombie.cpp.o: src/CMakeFiles/YourLibraryName.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workspaces/Chess-201/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/YourLibraryName.dir/zombie.cpp.o"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/YourLibraryName.dir/zombie.cpp.o -MF CMakeFiles/YourLibraryName.dir/zombie.cpp.o.d -o CMakeFiles/YourLibraryName.dir/zombie.cpp.o -c /workspaces/Chess-201/src/zombie.cpp
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/YourLibraryName.dir/zombie.cpp.o -MF CMakeFiles/YourLibraryName.dir/zombie.cpp.o.d -o CMakeFiles/YourLibraryName.dir/zombie.cpp.o -c /workspaces/Chess-201/src/zombie.cpp
 
 src/CMakeFiles/YourLibraryName.dir/zombie.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/YourLibraryName.dir/zombie.cpp.i"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Chess-201/src/zombie.cpp > CMakeFiles/YourLibraryName.dir/zombie.cpp.i
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workspaces/Chess-201/src/zombie.cpp > CMakeFiles/YourLibraryName.dir/zombie.cpp.i
 
 src/CMakeFiles/YourLibraryName.dir/zombie.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/YourLibraryName.dir/zombie.cpp.s"
-	cd /workspaces/Chess-201/build/src && /usr/bin/aarch64-linux-gnu-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Chess-201/src/zombie.cpp -o CMakeFiles/YourLibraryName.dir/zombie.cpp.s
+	cd /workspaces/Chess-201/build/src && /usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workspaces/Chess-201/src/zombie.cpp -o CMakeFiles/YourLibraryName.dir/zombie.cpp.s
 
 # Object files for target YourLibraryName
 YourLibraryName_OBJECTS = \

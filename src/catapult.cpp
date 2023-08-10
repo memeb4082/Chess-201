@@ -4,10 +4,12 @@ Catapult::Catapult(TeamColor team) : Piece(PieceType::Catapult, team) {
     // Constructor initialization, if needed
 }
 
-void Catapult::moves() const {
+int** Catapult::moves(int* pos) const {
     // Implement the moves of the Catapult piece
     // ...
     std::cout << "Catapult moves." << std::endl;
+int **moves;
+return moves;
 }
 
 void Catapult::attacks() const {

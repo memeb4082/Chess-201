@@ -15,7 +15,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/aarch64-linux-gnu-addr2line"
+			"value" : "/usr/bin/addr2line"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -31,7 +31,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/aarch64-linux-gnu-ar"
+			"value" : "/usr/bin/llvm-ar"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -159,7 +159,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/usr/bin/aarch64-linux-gnu-g++"
+			"value" : "/usr/bin/clang++"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_AR",
@@ -171,11 +171,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+					"value" : "LLVM archiver"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/aarch64-linux-gnu-gcc-ar-11"
+			"value" : "/usr/bin/llvm-ar-14"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER_RANLIB",
@@ -187,11 +187,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+					"value" : "Generate index for LLVM archive"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/aarch64-linux-gnu-gcc-ranlib-11"
+			"value" : "/usr/bin/llvm-ranlib-14"
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS",
@@ -287,7 +287,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "/usr/bin/aarch64-linux-gnu-gcc"
+			"value" : "/usr/bin/clang"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -299,11 +299,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+					"value" : "LLVM archiver"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/aarch64-linux-gnu-gcc-ar-11"
+			"value" : "/usr/bin/llvm-ar-14"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -315,11 +315,11 @@
 				},
 				{
 					"name" : "HELPSTRING",
-					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+					"value" : "Generate index for LLVM archive"
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/aarch64-linux-gnu-gcc-ranlib-11"
+			"value" : "/usr/bin/llvm-ranlib-14"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -415,7 +415,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "CMAKE_DLLTOOL-NOTFOUND"
+			"value" : "/usr/bin/llvm-dlltool"
 		},
 		{
 			"name" : "CMAKE_EDIT_COMMAND",
@@ -643,7 +643,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/aarch64-linux-gnu-ld"
+			"value" : "/usr/bin/ld"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
@@ -755,7 +755,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/aarch64-linux-gnu-nm"
+			"value" : "/usr/bin/llvm-nm"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -783,7 +783,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/aarch64-linux-gnu-objcopy"
+			"value" : "/usr/bin/llvm-objcopy"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -799,7 +799,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/aarch64-linux-gnu-objdump"
+			"value" : "/usr/bin/llvm-objdump"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -863,7 +863,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/aarch64-linux-gnu-ranlib"
+			"value" : "/usr/bin/llvm-ranlib"
 		},
 		{
 			"name" : "CMAKE_READELF",
@@ -879,7 +879,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/aarch64-linux-gnu-readelf"
+			"value" : "/usr/bin/llvm-readelf"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -1099,7 +1099,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "/usr/bin/aarch64-linux-gnu-strip"
+			"value" : "/usr/bin/llvm-strip"
 		},
 		{
 			"name" : "CMAKE_UNAME",

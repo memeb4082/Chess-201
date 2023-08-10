@@ -4,10 +4,12 @@ Miner::Miner(TeamColor team) : Piece(PieceType::Miner, team) {
     // Constructor initialization, if needed
 }
 
-void Miner::moves() const {
+int** Miner::moves(int* pos) const {
     // Implement the moves of the Miner piece
     // ...
     std::cout << "Miner moves." << std::endl;
+int **moves;
+return moves;
 }
 
 void Miner::attacks() const {

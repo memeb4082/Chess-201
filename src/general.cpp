@@ -4,10 +4,12 @@ General::General(TeamColor team) : Piece(PieceType::General, team) {
     // Constructor initialization, if needed
 }
 
-void General::moves() const {
+int** General::moves(int* pos) const {
     // Implement the moves of the General piece
     // ...
     std::cout << "General moves." << std::endl;
+int **moves;
+return moves;
 }
 
 void General::attacks() const {

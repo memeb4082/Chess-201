@@ -1,112 +1,112 @@
 [
 {
   "directory": "/workspaces/Chess-201/build",
-  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourExecutableName.dir/src/board.cpp.o -c /workspaces/Chess-201/src/board.cpp",
+  "command": "/usr/bin/clang++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourExecutableName.dir/src/board.cpp.o -c /workspaces/Chess-201/src/board.cpp",
   "file": "/workspaces/Chess-201/src/board.cpp"
 },
 {
   "directory": "/workspaces/Chess-201/build",
-  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourExecutableName.dir/src/builder.cpp.o -c /workspaces/Chess-201/src/builder.cpp",
+  "command": "/usr/bin/clang++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourExecutableName.dir/src/builder.cpp.o -c /workspaces/Chess-201/src/builder.cpp",
   "file": "/workspaces/Chess-201/src/builder.cpp"
 },
 {
   "directory": "/workspaces/Chess-201/build",
-  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourExecutableName.dir/src/catapult.cpp.o -c /workspaces/Chess-201/src/catapult.cpp",
+  "command": "/usr/bin/clang++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourExecutableName.dir/src/catapult.cpp.o -c /workspaces/Chess-201/src/catapult.cpp",
   "file": "/workspaces/Chess-201/src/catapult.cpp"
 },
 {
   "directory": "/workspaces/Chess-201/build",
-  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourExecutableName.dir/src/dragon.cpp.o -c /workspaces/Chess-201/src/dragon.cpp",
+  "command": "/usr/bin/clang++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourExecutableName.dir/src/dragon.cpp.o -c /workspaces/Chess-201/src/dragon.cpp",
   "file": "/workspaces/Chess-201/src/dragon.cpp"
 },
 {
   "directory": "/workspaces/Chess-201/build",
-  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourExecutableName.dir/src/general.cpp.o -c /workspaces/Chess-201/src/general.cpp",
+  "command": "/usr/bin/clang++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourExecutableName.dir/src/general.cpp.o -c /workspaces/Chess-201/src/general.cpp",
   "file": "/workspaces/Chess-201/src/general.cpp"
 },
 {
   "directory": "/workspaces/Chess-201/build",
-  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourExecutableName.dir/src/jester.cpp.o -c /workspaces/Chess-201/src/jester.cpp",
+  "command": "/usr/bin/clang++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourExecutableName.dir/src/jester.cpp.o -c /workspaces/Chess-201/src/jester.cpp",
   "file": "/workspaces/Chess-201/src/jester.cpp"
 },
 {
   "directory": "/workspaces/Chess-201/build",
-  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourExecutableName.dir/src/main.cpp.o -c /workspaces/Chess-201/src/main.cpp",
+  "command": "/usr/bin/clang++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourExecutableName.dir/src/main.cpp.o -c /workspaces/Chess-201/src/main.cpp",
   "file": "/workspaces/Chess-201/src/main.cpp"
 },
 {
   "directory": "/workspaces/Chess-201/build",
-  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourExecutableName.dir/src/miner.cpp.o -c /workspaces/Chess-201/src/miner.cpp",
+  "command": "/usr/bin/clang++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourExecutableName.dir/src/miner.cpp.o -c /workspaces/Chess-201/src/miner.cpp",
   "file": "/workspaces/Chess-201/src/miner.cpp"
 },
 {
   "directory": "/workspaces/Chess-201/build",
-  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourExecutableName.dir/src/piece.cpp.o -c /workspaces/Chess-201/src/piece.cpp",
+  "command": "/usr/bin/clang++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourExecutableName.dir/src/piece.cpp.o -c /workspaces/Chess-201/src/piece.cpp",
   "file": "/workspaces/Chess-201/src/piece.cpp"
 },
 {
   "directory": "/workspaces/Chess-201/build",
-  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.o -c /workspaces/Chess-201/src/sentinel.cpp",
+  "command": "/usr/bin/clang++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.o -c /workspaces/Chess-201/src/sentinel.cpp",
   "file": "/workspaces/Chess-201/src/sentinel.cpp"
 },
 {
   "directory": "/workspaces/Chess-201/build",
-  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourExecutableName.dir/src/zombie.cpp.o -c /workspaces/Chess-201/src/zombie.cpp",
+  "command": "/usr/bin/clang++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourExecutableName.dir/src/zombie.cpp.o -c /workspaces/Chess-201/src/zombie.cpp",
   "file": "/workspaces/Chess-201/src/zombie.cpp"
 },
 {
   "directory": "/workspaces/Chess-201/build/src",
-  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourLibraryName.dir/board.cpp.o -c /workspaces/Chess-201/src/board.cpp",
+  "command": "/usr/bin/clang++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourLibraryName.dir/board.cpp.o -c /workspaces/Chess-201/src/board.cpp",
   "file": "/workspaces/Chess-201/src/board.cpp"
 },
 {
   "directory": "/workspaces/Chess-201/build/src",
-  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourLibraryName.dir/builder.cpp.o -c /workspaces/Chess-201/src/builder.cpp",
+  "command": "/usr/bin/clang++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourLibraryName.dir/builder.cpp.o -c /workspaces/Chess-201/src/builder.cpp",
   "file": "/workspaces/Chess-201/src/builder.cpp"
 },
 {
   "directory": "/workspaces/Chess-201/build/src",
-  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourLibraryName.dir/catapult.cpp.o -c /workspaces/Chess-201/src/catapult.cpp",
+  "command": "/usr/bin/clang++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourLibraryName.dir/catapult.cpp.o -c /workspaces/Chess-201/src/catapult.cpp",
   "file": "/workspaces/Chess-201/src/catapult.cpp"
 },
 {
   "directory": "/workspaces/Chess-201/build/src",
-  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourLibraryName.dir/dragon.cpp.o -c /workspaces/Chess-201/src/dragon.cpp",
+  "command": "/usr/bin/clang++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourLibraryName.dir/dragon.cpp.o -c /workspaces/Chess-201/src/dragon.cpp",
   "file": "/workspaces/Chess-201/src/dragon.cpp"
 },
 {
   "directory": "/workspaces/Chess-201/build/src",
-  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourLibraryName.dir/general.cpp.o -c /workspaces/Chess-201/src/general.cpp",
+  "command": "/usr/bin/clang++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourLibraryName.dir/general.cpp.o -c /workspaces/Chess-201/src/general.cpp",
   "file": "/workspaces/Chess-201/src/general.cpp"
 },
 {
   "directory": "/workspaces/Chess-201/build/src",
-  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourLibraryName.dir/jester.cpp.o -c /workspaces/Chess-201/src/jester.cpp",
+  "command": "/usr/bin/clang++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourLibraryName.dir/jester.cpp.o -c /workspaces/Chess-201/src/jester.cpp",
   "file": "/workspaces/Chess-201/src/jester.cpp"
 },
 {
   "directory": "/workspaces/Chess-201/build/src",
-  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourLibraryName.dir/main.cpp.o -c /workspaces/Chess-201/src/main.cpp",
+  "command": "/usr/bin/clang++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourLibraryName.dir/main.cpp.o -c /workspaces/Chess-201/src/main.cpp",
   "file": "/workspaces/Chess-201/src/main.cpp"
 },
 {
   "directory": "/workspaces/Chess-201/build/src",
-  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourLibraryName.dir/miner.cpp.o -c /workspaces/Chess-201/src/miner.cpp",
+  "command": "/usr/bin/clang++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourLibraryName.dir/miner.cpp.o -c /workspaces/Chess-201/src/miner.cpp",
   "file": "/workspaces/Chess-201/src/miner.cpp"
 },
 {
   "directory": "/workspaces/Chess-201/build/src",
-  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourLibraryName.dir/piece.cpp.o -c /workspaces/Chess-201/src/piece.cpp",
+  "command": "/usr/bin/clang++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourLibraryName.dir/piece.cpp.o -c /workspaces/Chess-201/src/piece.cpp",
   "file": "/workspaces/Chess-201/src/piece.cpp"
 },
 {
   "directory": "/workspaces/Chess-201/build/src",
-  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourLibraryName.dir/sentinel.cpp.o -c /workspaces/Chess-201/src/sentinel.cpp",
+  "command": "/usr/bin/clang++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourLibraryName.dir/sentinel.cpp.o -c /workspaces/Chess-201/src/sentinel.cpp",
   "file": "/workspaces/Chess-201/src/sentinel.cpp"
 },
 {
   "directory": "/workspaces/Chess-201/build/src",
-  "command": "/usr/bin/aarch64-linux-gnu-g++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourLibraryName.dir/zombie.cpp.o -c /workspaces/Chess-201/src/zombie.cpp",
+  "command": "/usr/bin/clang++  -I/workspaces/Chess-201/include -g -std=gnu++11 -o CMakeFiles/YourLibraryName.dir/zombie.cpp.o -c /workspaces/Chess-201/src/zombie.cpp",
   "file": "/workspaces/Chess-201/src/zombie.cpp"
 }
 ]

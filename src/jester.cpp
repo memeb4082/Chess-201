@@ -4,10 +4,12 @@ Jester::Jester(TeamColor team) : Piece(PieceType::Jester, team) {
     // Constructor initialization, if needed
 }
 
-void Jester::moves() const {
+int** Jester::moves(int* pos) const {
     // Implement the moves of the Jester piece
     // ...
     std::cout << "Jester moves." << std::endl;
+int **moves;
+return moves;
 }
 
 void Jester::attacks() const {

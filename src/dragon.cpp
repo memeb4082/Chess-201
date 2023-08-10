@@ -4,10 +4,12 @@ Dragon::Dragon(TeamColor team) : Piece(PieceType::Dragon, team) {
     // Constructor initialization, if needed
 }
 
-void Dragon::moves() const {
+int** Dragon::moves(int* pos) const {
     // Implement the moves of the Dragon piece
     // ...
     std::cout << "Dragon moves." << std::endl;
+int **moves;
+return moves;
 }
 
 void Dragon::attacks() const {

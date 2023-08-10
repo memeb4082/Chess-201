@@ -18,5 +18,5 @@ class Board
     public:
         Board(char *filename);
         void printBoard();
-        // ~Board();
+        void printMoves();
 };

@@ -36,3 +36,23 @@
 
 #vsc indexing 
 .vscode
+
+# CMake build artifacts
+build/
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+Testing/
+
+# Compiled binaries
+*.exe
+*.out
+
+# Visual Studio Code specific files
+.vscode/
+
+# macOS specific files
+.DS_Store
+
+# Linux/Unix core dumps
+core

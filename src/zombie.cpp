@@ -4,10 +4,12 @@ Zombie::Zombie(TeamColor team) : Piece(PieceType::Zombie, team) {
     // Constructor initialization, if needed
 }
 
-void Zombie::moves() const {
+int** Zombie::moves(int* pos) const {
     // Implement the moves of the Zombie piece
     // ...
     std::cout << "Zombie moves." << std::endl;
+int **moves;
+return moves;
 }
 
 void Zombie::attacks() const {
