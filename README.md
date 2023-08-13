@@ -1,68 +1,32 @@
 # Chess 2.0
 
-### Zombie
+**Zombie (Z)**
+  - Can move to and capture pieces on any of the three adjoining squares in front of the Zombie (that is, facing upwards for white and downwards for black).
+  - Can perform a leaping attack, capturing the piece on the square two squares away in any of those three directions, provided that there is an enemy piece there that can be legally captured.
+  - Once the Zombie reaches the back row (the top row for white, the bottom row for black), it can no longer make any moves.
 
-- Zombies can move to and capture pieces on any of the three adjoining squares in front of it
-- If theres an enemy piece two squares away in the three directions and the intermediate square is empty, the Zombie can perform a leaping attack and capture the piece on that square.
-- As the zombie can only advance, once it reaches the back row, it will no longer be able to make any moves
+**Builder (B)**
+  - Can move and capture on any of the 8 adjoining squares.
+  - Can build walls on any of the 8 adjoining squares as long as there is nothing occupying that square. The builder does this without moving.
 
-### Builder
+**Jester (J)**
+  - Can move to any of the 8 adjoining squares, but it cannot capture any pieces.
+  - Can convert an enemy piece to its own side by moving to a square occupied by an enemy piece.
+  - Cannot convert a piece that is protected by a wall.
 
-- The builder can move and capture on any of the 8 adjoining squares
-- Can also build walls on any of the 8 adjoining squares as long as there is nothing occupying that square. Does this without moving
+**Miner (M)**
+  - Can move and capture on any of the 8 adjoining squares.
+  - Can destroy walls by moving to a square occupied by a wall.
+  - Once a wall is destroyed, the Miner cannot move any further on that turn.
 
-#### Walls
+**Sentinel (S)**
+  - Can move to any square along a straight line in any direction, but it cannot jump over other pieces.
+  - Can capture any enemy piece that is on the square it moves to.
 
-- Do not belong to either player and do not move
-- Obstruct other pieces as neither player can move a piece into a square occupied by another player
-- Only way to remove is by <b><i>capturing it with a miner</i></b>
-
-### Jester
-
-- Only piece that cannot capture
-- Can move to any of the adjoining pieces
-
-#### Abilities
-
-- Can exchange places with any non jester piece if it is on one of the adjoining squares.
-- Can convince enemy pieces on any of the adjoining squares (excluding general) to switch sides
-
-### Miner
-
-- Moves like a rook
-- Able to capture walls
-
-### Sentinel
-
-- Moves and captures like a knight
-- Protects any friendly pieces in the 4 adjoining directions in cardinal directions (NSEW) and prevents captures on those squares.
-- Protection has the following rules
-    - Will protect any piece of the same colour on those 4 squares (including other Sentinels)
-    - Enemy pieces will not be able to capture a piece protected by a Sentinel but can still be converted by the Jester
-
-### Catapult
-
-- Only move one square at a time in the cardinal directions (NSEW)
-- Cannot capture in squares that it moves to
-- Can capture pieces 3 squares away in the cardinal directions or 2 squares away in 2 perpendicular cardinal directions (NE, NS, SE, SW)
-- Ignores walls and other pieces
-- Captures do not move the piece
-
-### Dragon
-
-- Moves like a Queen
-- Cannot capture any piece it is immediately adjacent to
-
-### General
-
-- Moves like a King
-- Cannot be captured 
-- Moving to a square that can be captured is an illegal move
-- If opponent move puts King in attacking range, General is in <b>danger</b>
-    - Must get General out of danger in next move
-        - Move
-        - Capture
-        - Obstruct
-    - If not done, that is an illegal move
-- Targeting a General is the key to winning games
-- By targetting General, enemy moves are limited and can lead to a situation with no possible moves and lose as a result
+**Catapult (C)**
+  - Can move to any square along a straight line in any direction, but it cannot jump over other pieces.
+  - Can capture any enemy piece that is on the square it moves to.
+  - Can destroy walls by moving to a square occupied by a wall. Once a wall is destroyed, the Catapult cannot move any further on that turn.
+**Dragon (D)**
+  - Can move to any square along a straight line in any direction, including jumping over other pieces.
+  - Can capture any enemy piece that is on the square it moves to.

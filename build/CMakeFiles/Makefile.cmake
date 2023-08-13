@@ -43,12 +43,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/cmake/share/cmake-3.22/Modules/Compiler/Borland-DetermineCompiler.cmake"
   "/opt/cmake/share/cmake-3.22/Modules/Compiler/Bruce-C-DetermineCompiler.cmake"
   "/opt/cmake/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
-  "/opt/cmake/share/cmake-3.22/Modules/Compiler/Clang-C.cmake"
-  "/opt/cmake/share/cmake-3.22/Modules/Compiler/Clang-CXX.cmake"
   "/opt/cmake/share/cmake-3.22/Modules/Compiler/Clang-DetermineCompiler.cmake"
   "/opt/cmake/share/cmake-3.22/Modules/Compiler/Clang-DetermineCompilerInternal.cmake"
-  "/opt/cmake/share/cmake-3.22/Modules/Compiler/Clang-FindBinUtils.cmake"
-  "/opt/cmake/share/cmake-3.22/Modules/Compiler/Clang.cmake"
   "/opt/cmake/share/cmake-3.22/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake"
   "/opt/cmake/share/cmake-3.22/Modules/Compiler/Compaq-C-DetermineCompiler.cmake"
   "/opt/cmake/share/cmake-3.22/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake"
@@ -58,7 +54,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/cmake/share/cmake-3.22/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake"
   "/opt/cmake/share/cmake-3.22/Modules/Compiler/GHS-DetermineCompiler.cmake"
   "/opt/cmake/share/cmake-3.22/Modules/Compiler/GNU-C-DetermineCompiler.cmake"
+  "/opt/cmake/share/cmake-3.22/Modules/Compiler/GNU-C.cmake"
   "/opt/cmake/share/cmake-3.22/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake"
+  "/opt/cmake/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake"
+  "/opt/cmake/share/cmake-3.22/Modules/Compiler/GNU-FindBinUtils.cmake"
   "/opt/cmake/share/cmake-3.22/Modules/Compiler/GNU.cmake"
   "/opt/cmake/share/cmake-3.22/Modules/Compiler/HP-C-DetermineCompiler.cmake"
   "/opt/cmake/share/cmake-3.22/Modules/Compiler/HP-CXX-DetermineCompiler.cmake"
@@ -89,8 +88,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/cmake/share/cmake-3.22/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
   "/opt/cmake/share/cmake-3.22/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
   "/opt/cmake/share/cmake-3.22/Modules/Internal/FeatureTesting.cmake"
-  "/opt/cmake/share/cmake-3.22/Modules/Platform/Linux-Clang-C.cmake"
-  "/opt/cmake/share/cmake-3.22/Modules/Platform/Linux-Clang-CXX.cmake"
   "/opt/cmake/share/cmake-3.22/Modules/Platform/Linux-Determine-CXX.cmake"
   "/opt/cmake/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake"
   "/opt/cmake/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake"
@@ -123,6 +120,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/YourExecutableName.dir/DependInfo.cmake"
+  "CMakeFiles/Chess.dir/DependInfo.cmake"
   "src/CMakeFiles/YourLibraryName.dir/DependInfo.cmake"
   )

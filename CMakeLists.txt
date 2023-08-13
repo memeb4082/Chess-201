@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0)
-project(YourProjectName)
+project(Chess)
 
 # Set the C++ standard to use
 set(CMAKE_CXX_STANDARD 11)
@@ -17,5 +17,5 @@ add_subdirectory(src)
 file(GLOB SOURCES "src/*.cpp")
 
 # Create your executable and link any necessary libraries
-add_executable(YourExecutableName ${SOURCES})
-target_link_libraries(YourExecutableName YourLibraryName)
+add_executable(Chess ${SOURCES})
+target_link_libraries(Chess YourLibraryName)

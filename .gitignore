@@ -56,3 +56,28 @@ Testing/
 
 # Linux/Unix core dumps
 core
+
+# CMake-generated files
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+CMakeTmp/
+
+# Compiled output
+build/
+bin/
+lib/
+
+# IDE-specific files (you can adjust this based on your IDE)
+.vscode/
+.idea/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.user
+*.suo
+
+# Miscellaneous
+*.log
+*.swp
+Thumbs.db

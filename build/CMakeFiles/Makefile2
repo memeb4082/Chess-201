@@ -54,16 +54,16 @@ RM = /opt/cmake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspaces/Chess-201
+CMAKE_SOURCE_DIR = /workspaces/cpp-2/Chess-201
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspaces/Chess-201/build
+CMAKE_BINARY_DIR = /workspaces/cpp-2/Chess-201/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/YourExecutableName.dir/all
+all: CMakeFiles/Chess.dir/all
 all: src/all
 .PHONY : all
 
@@ -72,7 +72,7 @@ preinstall: src/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/YourExecutableName.dir/clean
+clean: CMakeFiles/Chess.dir/clean
 clean: src/clean
 .PHONY : clean
 
@@ -92,30 +92,30 @@ src/clean: src/CMakeFiles/YourLibraryName.dir/clean
 .PHONY : src/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/YourExecutableName.dir
+# Target rules for target CMakeFiles/Chess.dir
 
 # All Build rule for target.
-CMakeFiles/YourExecutableName.dir/all: src/CMakeFiles/YourLibraryName.dir/all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/Chess-201/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target YourExecutableName"
-.PHONY : CMakeFiles/YourExecutableName.dir/all
+CMakeFiles/Chess.dir/all: src/CMakeFiles/YourLibraryName.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/cpp-2/Chess-201/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target Chess"
+.PHONY : CMakeFiles/Chess.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/YourExecutableName.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Chess-201/build/CMakeFiles 24
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/YourExecutableName.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Chess-201/build/CMakeFiles 0
-.PHONY : CMakeFiles/YourExecutableName.dir/rule
+CMakeFiles/Chess.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/cpp-2/Chess-201/build/CMakeFiles 24
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Chess.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/cpp-2/Chess-201/build/CMakeFiles 0
+.PHONY : CMakeFiles/Chess.dir/rule
 
 # Convenience name for target.
-YourExecutableName: CMakeFiles/YourExecutableName.dir/rule
-.PHONY : YourExecutableName
+Chess: CMakeFiles/Chess.dir/rule
+.PHONY : Chess
 
 # clean rule for target.
-CMakeFiles/YourExecutableName.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/clean
-.PHONY : CMakeFiles/YourExecutableName.dir/clean
+CMakeFiles/Chess.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/clean
+.PHONY : CMakeFiles/Chess.dir/clean
 
 #=============================================================================
 # Target rules for target src/CMakeFiles/YourLibraryName.dir
@@ -124,14 +124,14 @@ CMakeFiles/YourExecutableName.dir/clean:
 src/CMakeFiles/YourLibraryName.dir/all:
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/Chess-201/build/CMakeFiles --progress-num=13,14,15,16,17,18,19,20,21,22,23,24 "Built target YourLibraryName"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/workspaces/cpp-2/Chess-201/build/CMakeFiles --progress-num=13,14,15,16,17,18,19,20,21,22,23,24 "Built target YourLibraryName"
 .PHONY : src/CMakeFiles/YourLibraryName.dir/all
 
 # Build rule for subdir invocation for target.
 src/CMakeFiles/YourLibraryName.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Chess-201/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/cpp-2/Chess-201/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/YourLibraryName.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Chess-201/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/cpp-2/Chess-201/build/CMakeFiles 0
 .PHONY : src/CMakeFiles/YourLibraryName.dir/rule
 
 # Convenience name for target.

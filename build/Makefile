@@ -57,10 +57,10 @@ RM = /opt/cmake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspaces/Chess-201
+CMAKE_SOURCE_DIR = /workspaces/cpp-2/Chess-201
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspaces/Chess-201/build
+CMAKE_BINARY_DIR = /workspaces/cpp-2/Chess-201/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Chess-201/build/CMakeFiles /workspaces/Chess-201/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/cpp-2/Chess-201/build/CMakeFiles /workspaces/cpp-2/Chess-201/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Chess-201/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/cpp-2/Chess-201/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,17 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named YourExecutableName
+# Target rules for targets named Chess
 
 # Build rule for target.
-YourExecutableName: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 YourExecutableName
-.PHONY : YourExecutableName
+Chess: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Chess
+.PHONY : Chess
 
 # fast build rule for target.
-YourExecutableName/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/build
-.PHONY : YourExecutableName/fast
+Chess/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/build
+.PHONY : Chess/fast
 
 #=============================================================================
 # Target rules for targets named YourLibraryName
@@ -147,7 +147,7 @@ src/board.o: src/board.cpp.o
 
 # target to build an object file
 src/board.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/board.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/board.cpp.o
 .PHONY : src/board.cpp.o
 
 src/board.i: src/board.cpp.i
@@ -155,7 +155,7 @@ src/board.i: src/board.cpp.i
 
 # target to preprocess a source file
 src/board.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/board.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/board.cpp.i
 .PHONY : src/board.cpp.i
 
 src/board.s: src/board.cpp.s
@@ -163,7 +163,7 @@ src/board.s: src/board.cpp.s
 
 # target to generate assembly for a file
 src/board.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/board.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/board.cpp.s
 .PHONY : src/board.cpp.s
 
 src/builder.o: src/builder.cpp.o
@@ -171,7 +171,7 @@ src/builder.o: src/builder.cpp.o
 
 # target to build an object file
 src/builder.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/builder.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/builder.cpp.o
 .PHONY : src/builder.cpp.o
 
 src/builder.i: src/builder.cpp.i
@@ -179,7 +179,7 @@ src/builder.i: src/builder.cpp.i
 
 # target to preprocess a source file
 src/builder.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/builder.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/builder.cpp.i
 .PHONY : src/builder.cpp.i
 
 src/builder.s: src/builder.cpp.s
@@ -187,7 +187,7 @@ src/builder.s: src/builder.cpp.s
 
 # target to generate assembly for a file
 src/builder.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/builder.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/builder.cpp.s
 .PHONY : src/builder.cpp.s
 
 src/catapult.o: src/catapult.cpp.o
@@ -195,7 +195,7 @@ src/catapult.o: src/catapult.cpp.o
 
 # target to build an object file
 src/catapult.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/catapult.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/catapult.cpp.o
 .PHONY : src/catapult.cpp.o
 
 src/catapult.i: src/catapult.cpp.i
@@ -203,7 +203,7 @@ src/catapult.i: src/catapult.cpp.i
 
 # target to preprocess a source file
 src/catapult.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/catapult.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/catapult.cpp.i
 .PHONY : src/catapult.cpp.i
 
 src/catapult.s: src/catapult.cpp.s
@@ -211,7 +211,7 @@ src/catapult.s: src/catapult.cpp.s
 
 # target to generate assembly for a file
 src/catapult.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/catapult.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/catapult.cpp.s
 .PHONY : src/catapult.cpp.s
 
 src/dragon.o: src/dragon.cpp.o
@@ -219,7 +219,7 @@ src/dragon.o: src/dragon.cpp.o
 
 # target to build an object file
 src/dragon.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/dragon.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/dragon.cpp.o
 .PHONY : src/dragon.cpp.o
 
 src/dragon.i: src/dragon.cpp.i
@@ -227,7 +227,7 @@ src/dragon.i: src/dragon.cpp.i
 
 # target to preprocess a source file
 src/dragon.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/dragon.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/dragon.cpp.i
 .PHONY : src/dragon.cpp.i
 
 src/dragon.s: src/dragon.cpp.s
@@ -235,7 +235,7 @@ src/dragon.s: src/dragon.cpp.s
 
 # target to generate assembly for a file
 src/dragon.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/dragon.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/dragon.cpp.s
 .PHONY : src/dragon.cpp.s
 
 src/general.o: src/general.cpp.o
@@ -243,7 +243,7 @@ src/general.o: src/general.cpp.o
 
 # target to build an object file
 src/general.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/general.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/general.cpp.o
 .PHONY : src/general.cpp.o
 
 src/general.i: src/general.cpp.i
@@ -251,7 +251,7 @@ src/general.i: src/general.cpp.i
 
 # target to preprocess a source file
 src/general.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/general.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/general.cpp.i
 .PHONY : src/general.cpp.i
 
 src/general.s: src/general.cpp.s
@@ -259,7 +259,7 @@ src/general.s: src/general.cpp.s
 
 # target to generate assembly for a file
 src/general.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/general.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/general.cpp.s
 .PHONY : src/general.cpp.s
 
 src/jester.o: src/jester.cpp.o
@@ -267,7 +267,7 @@ src/jester.o: src/jester.cpp.o
 
 # target to build an object file
 src/jester.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/jester.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/jester.cpp.o
 .PHONY : src/jester.cpp.o
 
 src/jester.i: src/jester.cpp.i
@@ -275,7 +275,7 @@ src/jester.i: src/jester.cpp.i
 
 # target to preprocess a source file
 src/jester.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/jester.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/jester.cpp.i
 .PHONY : src/jester.cpp.i
 
 src/jester.s: src/jester.cpp.s
@@ -283,7 +283,7 @@ src/jester.s: src/jester.cpp.s
 
 # target to generate assembly for a file
 src/jester.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/jester.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/jester.cpp.s
 .PHONY : src/jester.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -291,7 +291,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -299,7 +299,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -307,7 +307,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/miner.o: src/miner.cpp.o
@@ -315,7 +315,7 @@ src/miner.o: src/miner.cpp.o
 
 # target to build an object file
 src/miner.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/miner.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/miner.cpp.o
 .PHONY : src/miner.cpp.o
 
 src/miner.i: src/miner.cpp.i
@@ -323,7 +323,7 @@ src/miner.i: src/miner.cpp.i
 
 # target to preprocess a source file
 src/miner.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/miner.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/miner.cpp.i
 .PHONY : src/miner.cpp.i
 
 src/miner.s: src/miner.cpp.s
@@ -331,7 +331,7 @@ src/miner.s: src/miner.cpp.s
 
 # target to generate assembly for a file
 src/miner.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/miner.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/miner.cpp.s
 .PHONY : src/miner.cpp.s
 
 src/piece.o: src/piece.cpp.o
@@ -339,7 +339,7 @@ src/piece.o: src/piece.cpp.o
 
 # target to build an object file
 src/piece.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/piece.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/piece.cpp.o
 .PHONY : src/piece.cpp.o
 
 src/piece.i: src/piece.cpp.i
@@ -347,7 +347,7 @@ src/piece.i: src/piece.cpp.i
 
 # target to preprocess a source file
 src/piece.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/piece.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/piece.cpp.i
 .PHONY : src/piece.cpp.i
 
 src/piece.s: src/piece.cpp.s
@@ -355,7 +355,7 @@ src/piece.s: src/piece.cpp.s
 
 # target to generate assembly for a file
 src/piece.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/piece.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/piece.cpp.s
 .PHONY : src/piece.cpp.s
 
 src/sentinel.o: src/sentinel.cpp.o
@@ -363,7 +363,7 @@ src/sentinel.o: src/sentinel.cpp.o
 
 # target to build an object file
 src/sentinel.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/sentinel.cpp.o
 .PHONY : src/sentinel.cpp.o
 
 src/sentinel.i: src/sentinel.cpp.i
@@ -371,7 +371,7 @@ src/sentinel.i: src/sentinel.cpp.i
 
 # target to preprocess a source file
 src/sentinel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/sentinel.cpp.i
 .PHONY : src/sentinel.cpp.i
 
 src/sentinel.s: src/sentinel.cpp.s
@@ -379,7 +379,7 @@ src/sentinel.s: src/sentinel.cpp.s
 
 # target to generate assembly for a file
 src/sentinel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/sentinel.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/sentinel.cpp.s
 .PHONY : src/sentinel.cpp.s
 
 src/zombie.o: src/zombie.cpp.o
@@ -387,7 +387,7 @@ src/zombie.o: src/zombie.cpp.o
 
 # target to build an object file
 src/zombie.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/zombie.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/zombie.cpp.o
 .PHONY : src/zombie.cpp.o
 
 src/zombie.i: src/zombie.cpp.i
@@ -395,7 +395,7 @@ src/zombie.i: src/zombie.cpp.i
 
 # target to preprocess a source file
 src/zombie.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/zombie.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/zombie.cpp.i
 .PHONY : src/zombie.cpp.i
 
 src/zombie.s: src/zombie.cpp.s
@@ -403,7 +403,7 @@ src/zombie.s: src/zombie.cpp.s
 
 # target to generate assembly for a file
 src/zombie.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/YourExecutableName.dir/build.make CMakeFiles/YourExecutableName.dir/src/zombie.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Chess.dir/build.make CMakeFiles/Chess.dir/src/zombie.cpp.s
 .PHONY : src/zombie.cpp.s
 
 # Help Target
@@ -414,7 +414,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... YourExecutableName"
+	@echo "... Chess"
 	@echo "... YourLibraryName"
 	@echo "... src/board.o"
 	@echo "... src/board.i"

@@ -57,10 +57,10 @@ RM = /opt/cmake/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workspaces/Chess-201
+CMAKE_SOURCE_DIR = /workspaces/cpp-2/Chess-201
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workspaces/Chess-201/build
+CMAKE_BINARY_DIR = /workspaces/cpp-2/Chess-201/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /workspaces/Chess-201/build && $(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Chess-201/build/CMakeFiles /workspaces/Chess-201/build/src//CMakeFiles/progress.marks
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Chess-201/build/CMakeFiles 0
+	cd /workspaces/cpp-2/Chess-201/build && $(CMAKE_COMMAND) -E cmake_progress_start /workspaces/cpp-2/Chess-201/build/CMakeFiles /workspaces/cpp-2/Chess-201/build/src//CMakeFiles/progress.marks
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/cpp-2/Chess-201/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /workspaces/Chess-201/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /workspaces/cpp-2/Chess-201/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/YourLibraryName.dir/rule:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/YourLibraryName.dir/rule
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/YourLibraryName.dir/rule
 .PHONY : src/CMakeFiles/YourLibraryName.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ YourLibraryName: src/CMakeFiles/YourLibraryName.dir/rule
 
 # fast build rule for target.
 YourLibraryName/fast:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/build
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/build
 .PHONY : YourLibraryName/fast
 
 board.o: board.cpp.o
@@ -135,7 +135,7 @@ board.o: board.cpp.o
 
 # target to build an object file
 board.cpp.o:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/board.cpp.o
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/board.cpp.o
 .PHONY : board.cpp.o
 
 board.i: board.cpp.i
@@ -143,7 +143,7 @@ board.i: board.cpp.i
 
 # target to preprocess a source file
 board.cpp.i:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/board.cpp.i
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/board.cpp.i
 .PHONY : board.cpp.i
 
 board.s: board.cpp.s
@@ -151,7 +151,7 @@ board.s: board.cpp.s
 
 # target to generate assembly for a file
 board.cpp.s:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/board.cpp.s
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/board.cpp.s
 .PHONY : board.cpp.s
 
 builder.o: builder.cpp.o
@@ -159,7 +159,7 @@ builder.o: builder.cpp.o
 
 # target to build an object file
 builder.cpp.o:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/builder.cpp.o
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/builder.cpp.o
 .PHONY : builder.cpp.o
 
 builder.i: builder.cpp.i
@@ -167,7 +167,7 @@ builder.i: builder.cpp.i
 
 # target to preprocess a source file
 builder.cpp.i:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/builder.cpp.i
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/builder.cpp.i
 .PHONY : builder.cpp.i
 
 builder.s: builder.cpp.s
@@ -175,7 +175,7 @@ builder.s: builder.cpp.s
 
 # target to generate assembly for a file
 builder.cpp.s:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/builder.cpp.s
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/builder.cpp.s
 .PHONY : builder.cpp.s
 
 catapult.o: catapult.cpp.o
@@ -183,7 +183,7 @@ catapult.o: catapult.cpp.o
 
 # target to build an object file
 catapult.cpp.o:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/catapult.cpp.o
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/catapult.cpp.o
 .PHONY : catapult.cpp.o
 
 catapult.i: catapult.cpp.i
@@ -191,7 +191,7 @@ catapult.i: catapult.cpp.i
 
 # target to preprocess a source file
 catapult.cpp.i:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/catapult.cpp.i
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/catapult.cpp.i
 .PHONY : catapult.cpp.i
 
 catapult.s: catapult.cpp.s
@@ -199,7 +199,7 @@ catapult.s: catapult.cpp.s
 
 # target to generate assembly for a file
 catapult.cpp.s:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/catapult.cpp.s
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/catapult.cpp.s
 .PHONY : catapult.cpp.s
 
 dragon.o: dragon.cpp.o
@@ -207,7 +207,7 @@ dragon.o: dragon.cpp.o
 
 # target to build an object file
 dragon.cpp.o:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/dragon.cpp.o
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/dragon.cpp.o
 .PHONY : dragon.cpp.o
 
 dragon.i: dragon.cpp.i
@@ -215,7 +215,7 @@ dragon.i: dragon.cpp.i
 
 # target to preprocess a source file
 dragon.cpp.i:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/dragon.cpp.i
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/dragon.cpp.i
 .PHONY : dragon.cpp.i
 
 dragon.s: dragon.cpp.s
@@ -223,7 +223,7 @@ dragon.s: dragon.cpp.s
 
 # target to generate assembly for a file
 dragon.cpp.s:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/dragon.cpp.s
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/dragon.cpp.s
 .PHONY : dragon.cpp.s
 
 general.o: general.cpp.o
@@ -231,7 +231,7 @@ general.o: general.cpp.o
 
 # target to build an object file
 general.cpp.o:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/general.cpp.o
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/general.cpp.o
 .PHONY : general.cpp.o
 
 general.i: general.cpp.i
@@ -239,7 +239,7 @@ general.i: general.cpp.i
 
 # target to preprocess a source file
 general.cpp.i:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/general.cpp.i
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/general.cpp.i
 .PHONY : general.cpp.i
 
 general.s: general.cpp.s
@@ -247,7 +247,7 @@ general.s: general.cpp.s
 
 # target to generate assembly for a file
 general.cpp.s:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/general.cpp.s
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/general.cpp.s
 .PHONY : general.cpp.s
 
 jester.o: jester.cpp.o
@@ -255,7 +255,7 @@ jester.o: jester.cpp.o
 
 # target to build an object file
 jester.cpp.o:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/jester.cpp.o
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/jester.cpp.o
 .PHONY : jester.cpp.o
 
 jester.i: jester.cpp.i
@@ -263,7 +263,7 @@ jester.i: jester.cpp.i
 
 # target to preprocess a source file
 jester.cpp.i:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/jester.cpp.i
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/jester.cpp.i
 .PHONY : jester.cpp.i
 
 jester.s: jester.cpp.s
@@ -271,7 +271,7 @@ jester.s: jester.cpp.s
 
 # target to generate assembly for a file
 jester.cpp.s:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/jester.cpp.s
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/jester.cpp.s
 .PHONY : jester.cpp.s
 
 main.o: main.cpp.o
@@ -279,7 +279,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/main.cpp.o
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -287,7 +287,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/main.cpp.i
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -295,7 +295,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/main.cpp.s
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 miner.o: miner.cpp.o
@@ -303,7 +303,7 @@ miner.o: miner.cpp.o
 
 # target to build an object file
 miner.cpp.o:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/miner.cpp.o
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/miner.cpp.o
 .PHONY : miner.cpp.o
 
 miner.i: miner.cpp.i
@@ -311,7 +311,7 @@ miner.i: miner.cpp.i
 
 # target to preprocess a source file
 miner.cpp.i:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/miner.cpp.i
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/miner.cpp.i
 .PHONY : miner.cpp.i
 
 miner.s: miner.cpp.s
@@ -319,7 +319,7 @@ miner.s: miner.cpp.s
 
 # target to generate assembly for a file
 miner.cpp.s:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/miner.cpp.s
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/miner.cpp.s
 .PHONY : miner.cpp.s
 
 piece.o: piece.cpp.o
@@ -327,7 +327,7 @@ piece.o: piece.cpp.o
 
 # target to build an object file
 piece.cpp.o:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/piece.cpp.o
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/piece.cpp.o
 .PHONY : piece.cpp.o
 
 piece.i: piece.cpp.i
@@ -335,7 +335,7 @@ piece.i: piece.cpp.i
 
 # target to preprocess a source file
 piece.cpp.i:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/piece.cpp.i
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/piece.cpp.i
 .PHONY : piece.cpp.i
 
 piece.s: piece.cpp.s
@@ -343,7 +343,7 @@ piece.s: piece.cpp.s
 
 # target to generate assembly for a file
 piece.cpp.s:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/piece.cpp.s
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/piece.cpp.s
 .PHONY : piece.cpp.s
 
 sentinel.o: sentinel.cpp.o
@@ -351,7 +351,7 @@ sentinel.o: sentinel.cpp.o
 
 # target to build an object file
 sentinel.cpp.o:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/sentinel.cpp.o
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/sentinel.cpp.o
 .PHONY : sentinel.cpp.o
 
 sentinel.i: sentinel.cpp.i
@@ -359,7 +359,7 @@ sentinel.i: sentinel.cpp.i
 
 # target to preprocess a source file
 sentinel.cpp.i:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/sentinel.cpp.i
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/sentinel.cpp.i
 .PHONY : sentinel.cpp.i
 
 sentinel.s: sentinel.cpp.s
@@ -367,7 +367,7 @@ sentinel.s: sentinel.cpp.s
 
 # target to generate assembly for a file
 sentinel.cpp.s:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/sentinel.cpp.s
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/sentinel.cpp.s
 .PHONY : sentinel.cpp.s
 
 zombie.o: zombie.cpp.o
@@ -375,7 +375,7 @@ zombie.o: zombie.cpp.o
 
 # target to build an object file
 zombie.cpp.o:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/zombie.cpp.o
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/zombie.cpp.o
 .PHONY : zombie.cpp.o
 
 zombie.i: zombie.cpp.i
@@ -383,7 +383,7 @@ zombie.i: zombie.cpp.i
 
 # target to preprocess a source file
 zombie.cpp.i:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/zombie.cpp.i
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/zombie.cpp.i
 .PHONY : zombie.cpp.i
 
 zombie.s: zombie.cpp.s
@@ -391,7 +391,7 @@ zombie.s: zombie.cpp.s
 
 # target to generate assembly for a file
 zombie.cpp.s:
-	cd /workspaces/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/zombie.cpp.s
+	cd /workspaces/cpp-2/Chess-201/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/YourLibraryName.dir/build.make src/CMakeFiles/YourLibraryName.dir/zombie.cpp.s
 .PHONY : zombie.cpp.s
 
 # Help Target
@@ -447,6 +447,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /workspaces/Chess-201/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /workspaces/cpp-2/Chess-201/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

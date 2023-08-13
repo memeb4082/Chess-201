@@ -7,7 +7,6 @@
 
 int main(int argv, char **argc)
 {
-    printf("Hello, World!\n");
     Board b = Board(argc[1]);
     b.printBoard();
     return 0;
