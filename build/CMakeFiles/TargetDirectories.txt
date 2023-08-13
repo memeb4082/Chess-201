@@ -1,6 +1,0 @@
-/workspaces/cpp-2/Chess-201/build/CMakeFiles/Chess.dir
-/workspaces/cpp-2/Chess-201/build/CMakeFiles/edit_cache.dir
-/workspaces/cpp-2/Chess-201/build/CMakeFiles/rebuild_cache.dir
-/workspaces/cpp-2/Chess-201/build/src/CMakeFiles/YourLibraryName.dir
-/workspaces/cpp-2/Chess-201/build/src/CMakeFiles/edit_cache.dir
-/workspaces/cpp-2/Chess-201/build/src/CMakeFiles/rebuild_cache.dir
